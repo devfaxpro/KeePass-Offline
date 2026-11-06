@@ -1,0 +1,66 @@
+KEEPASS OFFLINE — 4.5.5-offline.2 (45502)
+6 novembre 2026
+
+NOVITÀ
+- Nome visibile KeePass Offline, con indicazione di fork indipendente di KeePassDX.
+  Stesso identificativo Android e stessa firma di produzione della 4.5.5-per.1.
+- Otto temi soft conservati, pulsanti compatti e area di tocco accessibile.
+- Editor standard: titolo, nome utente, password e sito restano visibili;
+  note e scadenza sono espandibili. Le note già compilate restano visibili
+  all'apertura. Nascondere un campo non ne cancella il contenuto.
+  I modelli personalizzati mantengono i propri campi.
+- Menu del database > Backup e ripristino: guida alla copia cifrata e al
+  recupero, con data dell'ultima copia riuscita su questo dispositivo.
+  La copia usa il salvataggio cifrato esistente e gli stessi controlli di
+  verifica dell'utente. Non sposta il database originale e non ripristina
+  automaticamente né sovrascrive un file esistente.
+- Menu del database > Controllo password: verifica locale di riutilizzi,
+  password con meno di 12 caratteri o formate da un solo carattere ripetuto.
+  Ogni risultato apre la relativa voce. Nessuna password o impronta viene
+  salvata o trasmessa dall'analisi. La verifica si interrompe uscendo dalla
+  schermata e rispetta il blocco del database.
+- Selettore con le 26 lingue e l'ordine richiesti il 6 novembre 2026.
+  Le varianti regionali e la scrittura cinese vengono conservate correttamente.
+  Completati 773 testi visibili e le opzioni di durata e dimensione in tutte
+  le lingue. Le traduzioni richiedono comunque revisione editoriale madrelingua.
+
+LIMITI DELLE NUOVE FUNZIONI
+- Il controllo password è una verifica limitata ai criteri dichiarati,
+  non un controllo delle violazioni, un audit crittografico o una garanzia
+  di robustezza. Esclude il cestino, i modelli e le password vuote.
+- La data del backup indica che l'app ha completato la scrittura, non che
+  il supporto esterno esista ancora o che sia stata verificata la riapertura.
+  È specifica del percorso del database e di questo dispositivo.
+- Il ripristino va verificato aprendo la copia in sola lettura con le
+  credenziali principali e gli eventuali keyfile/chiavi hardware originali.
+- Il gestore non richiede Internet. Un provider di file Android scelto
+  dall'utente può però essere collegato a un servizio cloud esterno.
+- Sono preservate le correzioni di sicurezza della versione per.1 e la
+  preferenza di non cancellare gli appunti più recenti di altre app.
+
+VERIFICHE
+- 55 test JVM dell'app e 100 test JVM del database: superati.
+- 25 test crittografici Android eseguiti sull'emulatore Android 17 x86_64:
+  superati. Non equivalgono a prove hardware su tutti gli ABI supportati.
+- Android Lint: 0 errori, 406 avvisi, 1 suggerimento. Gli avvisi non sono
+  tutti risolti; non rappresenta una certificazione di assenza di vulnerabilità.
+- Risorse: 26 lingue, nessuna chiave mancante, valore vuoto, risorsa duplicata
+  o variazione dei parametri di formattazione nel controllo dedicato.
+- Firma v1/v2 verificata e identica alla release per.1; APK allineato a 16 KiB.
+- Package com.kunzisoft.keepass.libre, minSdk 19, targetSdk 36, release non debug.
+- Prove native sull'emulatore Android 17: aggiornamento dalla per.1 mantenendo
+  database recenti e credenziali; selezione di tutti gli otto temi senza crash,
+  persistenza del tema e passaggio all'italiano; creazione di una voce con note
+  salvate anche dopo averle nascoste; controllo password e apertura del risultato;
+  copia cifrata, aggiornamento della data e riapertura in sola lettura con le
+  stesse credenziali, verificando voce e note. Usati soltanto dati sintetici.
+- L'APK finale con la correzione Unicode è stato reinstallato come aggiornamento:
+  avvio, lingua e database recenti conservati. Ripristinata la protezione schermate.
+- Restano da provare su telefono fisico biometria, Autofill, passkey, appunti
+  tra più app, accessibilità completa e comportamento dei diversi produttori.
+  Non è stato eseguito un nuovo audit esaustivo di sicurezza.
+
+COMPILAZIONE E SORGENTI
+Vedere RELEASE-BUILD.txt. Il progetto conserva la licenza GPLv3 e i crediti
+originali. Le chiavi private e le password di firma non fanno parte dei sorgenti.
+Il nome storico dell'alias e delle variabili di firma resta per-keepass.

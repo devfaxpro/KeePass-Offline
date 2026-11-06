@@ -1,0 +1,68 @@
+KEEPASS OFFLINE 4.5.5-offline.2 (45502) — 6 novembre 2026
+
+Questo progetto comprende le precedenti modifiche grafiche e le correzioni
+dei percorsi di selezione credenziali, Autofill, ricerca per app, passkey,
+gestione della scadenza degli appunti e limite dei round AES.
+Non costituisce una certificazione di assenza di vulnerabilità.
+
+COMPILAZIONE
+Aprire questa cartella in Android Studio. Installare Android SDK 36,
+NDK 25.2.9519653 e CMake 3.22.1. Usare JDK 17 o successivo compatibile con Gradle.
+Il wrapper incluso usa Gradle 8.14.2. Creare local.properties con il percorso
+sdk.dir della propria installazione, oppure impostare ANDROID_HOME.
+
+Test: gradlew.bat :app:testLibreDebugUnitTest :database:testDebugUnitTest
+Controllo Android: gradlew.bat :app:lintLibreRelease
+APK: gradlew.bat :app:assembleLibreRelease
+Test nativi su dispositivo: gradlew.bat :crypto:connectedDebugAndroidTest
+Localizzazioni: python tools/check_release_resources.py
+I test grafici Robolectric sono configurati con un limite di 2 GB per JVM,
+una classe per processo e una sola esecuzione parallela.
+
+Per firmare la variante release, impostare nell'ambiente del processo:
+PER_KEEPASS_KEYSTORE = percorso assoluto del keystore privato
+PER_KEEPASS_STORE_PASSWORD = password del keystore
+PER_KEEPASS_KEY_PASSWORD = password della chiave
+Alias previsto: per-keepass
+Senza PER_KEEPASS_KEYSTORE Gradle produce una release non firmata.
+Non inserire queste password nei sorgenti, in GitHub, nei log o negli ZIP pubblici.
+
+CONTINUITÀ DELLA FIRMA
+Questa versione usa la stessa chiave di produzione di Per KeePass 4.5.5-per.1
+(versionCode 45501) e lo stesso package com.kunzisoft.keepass.libre.
+Può quindi aggiornare direttamente quella release.
+
+I vecchi APK di sviluppo anteriori alla per.1 usavano invece una chiave diversa
+e non sono aggiornabili direttamente con la firma di produzione.
+Prima di qualsiasi disinstallazione salvare copie separate dei database .kdb/.kdbx
+e degli eventuali keyfile in una posizione accessibile esterna ai dati privati
+dell'app. Verificare di conoscere la password principale e di poter aprire una
+copia del database. Le impostazioni e le autorizzazioni Android possono richiedere
+una nuova configurazione. Non cancellare l'app precedente prima di queste verifiche.
+Conservare il keystore e la password anche in un backup privato separato: servono
+per firmare tutti gli aggiornamenti futuri con la stessa identità.
+
+COMPATIBILITÀ E LIMITI
+- I domini web di Autofill sono accettati solo da app con nome del pacchetto e
+  certificato presenti nelle liste di browser fidati incluse o approvate dall'utente.
+  Le altre app usano il proprio identificativo Android; resta la selezione manuale.
+  Le associazioni Android già salvate non acquistano automaticamente un vincolo
+  storico al certificato dell'app destinataria.
+- La ricerca automatica per app richiede il nome completo del pacchetto.
+  La normale ricerca manuale conserva le corrispondenze parziali.
+- Una passkey selezionata per un altro sito o esclusa dall'elenco richiesto viene
+  rifiutata prima di generare firma e risultato PRF.
+- Quando Android nega l'accesso agli appunti in background, la scadenza resta
+  pendente fino al ritorno del focus nell'app. Un contenuto diverso non viene
+  cancellato. Android non offre un'operazione atomica di verifica e cancellazione:
+  il controllo del token limita, ma non elimina, una sostituzione concorrente tra
+  lettura e cancellazione. Il timeout in background non è garantito.
+- I database con AES oltre 4.294.967.295 round vengono rifiutati senza reinterpretare
+  il parametro. Le versioni precedenti potevano troncare questo valore nel backend
+  nativo. Conservare copie originali: eventuali database così creati richiedono
+  una procedura di recupero controllata, non una modifica manuale del file cifrato.
+- Build e test JVM non sostituiscono le prove Android reali di sblocco, biometria,
+  Autofill, passkey, appunti e funzionamento delle librerie native sui diversi ABI.
+
+Il file REDESIGN-ANDROID.txt descrive la consegna storica del 22 ottobre 2026.
+I suoi nomi APK, versione e risultati si riferiscono a quella build precedente.

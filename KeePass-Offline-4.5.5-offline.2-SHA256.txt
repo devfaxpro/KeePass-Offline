@@ -1,0 +1,2 @@
+cacd8032e857225aca31ac98aea63f47ddc2cf10faec3399ffc6a27d8d418965  KeePass-Offline-4.5.5-offline.2-release.apk
+dfb9a9dc6f50648f152bad49271ffd3a8ed0c3312ab2f001b0d08bf92c7cd824  KeePass-Offline-4.5.5-offline.2-AndroidStudio.zip
