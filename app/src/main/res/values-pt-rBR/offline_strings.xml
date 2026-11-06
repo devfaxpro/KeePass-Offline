@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="offline_backup_title">Backup e restauração</string>
+    <string name="offline_backup_summary">Salve uma cópia criptografada com as mesmas credenciais mestras. Escolha o armazenamento do dispositivo ou um pendrive para mantê-la offline.</string>
+    <string name="offline_backup_last">Última cópia concluída neste dispositivo: %1$s</string>
+    <string name="offline_backup_never">Nenhuma cópia registrada</string>
+    <string name="offline_restore_help">Para verificar ou restaurar um backup: bloqueie o banco de dados, escolha Abrir banco de dados e selecione a cópia. Ative o modo somente leitura antes de desbloquear. Confira as entradas antes de substituir o original. O arquivo de chave ou a chave física ainda serão necessários se estiverem configurados.</string>
+    <string name="offline_backup_create">Criar backup</string>
+    <string name="offline_review_title">Verificar senhas</string>
+    <string name="offline_review_running">Verificando localmente…</string>
+    <string name="offline_review_summary">Senhas verificadas: %1$d. Entradas para revisar: %2$d.</string>
+    <string name="offline_review_scope">Verificação local de senhas reutilizadas, com menos de 12 caracteres ou formadas por um único caractere repetido. Exclui a lixeira e os modelos. Não verifica vazamentos nem garante a força. Toque em uma entrada para revisá-la.</string>
+    <string name="offline_review_reused">Reutilizada</string>
+    <string name="offline_review_short">Curta ou repetitiva</string>
+    <string name="offline_review_error">Não foi possível concluir a verificação. Tente novamente com o banco de dados desbloqueado.</string>
+    <string name="offline_review_untitled">Entrada sem título</string>
+    <string name="offline_more_options">Notas e validade</string>
+    <string name="offline_less_options">Ocultar notas e validade</string>
+</resources>

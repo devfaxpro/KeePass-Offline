@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- KeePass Offline identity. SPDX-License-Identifier: GPL-3.0-or-later -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="branding_tagline">Offline password manager. KeePass compatible.</string>
+    <string name="branding_origin">Independent fork based on KeePassDX (Kunzisoft). Original credits and GPLv3 license preserved.</string>
+</resources>

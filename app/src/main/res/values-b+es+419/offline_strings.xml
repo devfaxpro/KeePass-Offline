@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="offline_backup_title">Copia de seguridad y recuperación</string>
+    <string name="offline_backup_summary">Guarda una copia cifrada con las mismas credenciales maestras. Elige el almacenamiento del dispositivo o una memoria USB para mantenerla sin conexión.</string>
+    <string name="offline_backup_last">Última copia correcta en este dispositivo: %1$s</string>
+    <string name="offline_backup_never">No hay copias registradas</string>
+    <string name="offline_restore_help">Para comprobar o recuperar una copia: bloquea la base de datos, elige Abrir base de datos y selecciona la copia. Activa el modo de solo lectura antes de desbloquearla. Revisa las entradas antes de sustituir el original. El archivo de clave o la llave física siguen siendo necesarios si están configurados.</string>
+    <string name="offline_backup_create">Crear copia</string>
+    <string name="offline_review_title">Revisar contraseñas</string>
+    <string name="offline_review_running">Comprobando localmente…</string>
+    <string name="offline_review_summary">Contraseñas comprobadas: %1$d. Entradas que revisar: %2$d.</string>
+    <string name="offline_review_scope">Comprueba localmente contraseñas reutilizadas, de menos de 12 caracteres o formadas por un único carácter repetido. Excluye la papelera y las plantillas. No comprueba filtraciones ni garantiza la fortaleza. Toca una entrada para revisarla.</string>
+    <string name="offline_review_reused">Reutilizada</string>
+    <string name="offline_review_short">Corta o repetitiva</string>
+    <string name="offline_review_error">No se ha podido completar la comprobación. Inténtalo con la base de datos desbloqueada.</string>
+    <string name="offline_review_untitled">Entrada sin título</string>
+    <string name="offline_more_options">Notas y caducidad</string>
+    <string name="offline_less_options">Ocultar notas y caducidad</string>
+</resources>

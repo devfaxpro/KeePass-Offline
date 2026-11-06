@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Localization completion. SPDX-License-Identifier: GPL-3.0-or-later -->
+<resources>
+    <string name="invalid_db_hmac">No se pudo verificar la firma de la base de datos. Puede que el archivo esté dañado o que otra aplicación lo haya modificado.</string>
+    <string name="save_success">Guardado completado</string>
+    <string name="error_load_database_KDF_iteration">El número de iteraciones de la KDF es demasiado alto.</string>
+    <string name="error_load_database_KDF_parallelism">El paralelismo de la KDF es demasiado alto.</string>
+    <string name="error_parallelism_too_large">El paralelismo es demasiado alto. Se ajustará a %1$s.</string>
+    <string name="error_missing_parent">Esta acción requiere un grupo principal.</string>
+    <string name="parallelism_set_safe">Establecer el número de procesadores</string>
+    <string name="temporary_merge_success">Fusión de datos temporales completada</string>
+    <string name="reload_success">Recarga completada</string>
+    <string name="passkey_pseudo_random_function">Función pseudoaleatoria de la clave de acceso</string>
+    <string-array name="timeout_options">
+        <item>5 segundos</item>
+        <item>10 segundos</item>
+        <item>20 segundos</item>
+        <item>30 segundos</item>
+        <item>1 minuto</item>
+        <item>5 minutos</item>
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="large_timeout_options">
+        <item>5 minutos</item>
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+        <item>2 horas</item>
+        <item>5 horas</item>
+        <item>10 horas</item>
+        <item>24 horas</item>
+        <item>48 horas</item>
+        <item>1 semana</item>
+        <item>1 mes</item>
+        <item>Nunca</item>
+    </string-array>
+</resources>

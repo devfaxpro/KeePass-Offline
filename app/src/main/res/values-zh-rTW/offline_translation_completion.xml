@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="branding_tagline">離線密碼管理工具。相容於 KeePass。</string>
+    <string name="branding_origin">以 KeePassDX (Kunzisoft) 為基礎的獨立分支。保留原作者資訊與 GPLv3 授權。</string>
+    <string name="modern_palette_title">主題</string>
+    <string name="modern_palette_summary">為您的密碼庫選擇整體外觀</string>
+    <string name="modern_blue">海洋</string>
+    <string name="modern_green">森林</string>
+    <string name="modern_purple">極光</string>
+    <string name="modern_red">珊瑚</string>
+    <string name="modern_orange">沙丘</string>
+    <string name="modern_teal">翡翠</string>
+    <string name="modern_pink">櫻花</string>
+    <string name="modern_slate">石墨</string>
+    <string name="modern_dynamic">Android 桌布色彩</string>
+    <string name="modern_legacy">原始主題</string>
+    <string name="modern_language">語言</string>
+    <string name="modern_preview">預覽</string>
+    <string name="modern_preview_title">您的密碼，您的風格。</string>
+    <string name="modern_preview_summary">獨特背景與協調的介面色彩，支援淺色或深色模式。</string>
+    <string name="modern_search">搜尋密碼庫</string>
+    <string name="invalid_db_hmac">資料庫簽章驗證失敗。檔案可能已損毀或遭其他應用程式修改。</string>
+    <string name="save_success">儲存成功</string>
+</resources>

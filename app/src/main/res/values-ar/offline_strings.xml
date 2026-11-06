@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="offline_backup_title">النسخ الاحتياطي والاستعادة</string>
+    <string name="offline_backup_summary">احفظ نسخة مشفرة ببيانات الاعتماد الرئيسية نفسها. اختر مساحة تخزين الجهاز أو وحدة USB لإبقائها دون اتصال.</string>
+    <string name="offline_backup_last">آخر نسخة ناجحة على هذا الجهاز: %1$s</string>
+    <string name="offline_backup_never">لا توجد نسخة مسجلة</string>
+    <string name="offline_restore_help">للتحقق من نسخة أو استعادتها: اقفل قاعدة البيانات، واختر فتح قاعدة بيانات ثم حدد النسخة. فعّل وضع القراءة فقط قبل فتح القفل. راجع الإدخالات قبل استبدال الأصل. يظل ملف المفتاح أو مفتاح الأمان مطلوبًا إذا كان معدًا.</string>
+    <string name="offline_backup_create">إنشاء نسخة احتياطية</string>
+    <string name="offline_review_title">مراجعة كلمات المرور</string>
+    <string name="offline_review_running">جارٍ التحقق محليًا…</string>
+    <string name="offline_review_summary">كلمات المرور المفحوصة: %1$d. الإدخالات المطلوب مراجعتها: %2$d.</string>
+    <string name="offline_review_scope">فحص محلي لكلمات المرور المعاد استخدامها، أو الأقصر من 12 محرفًا، أو المكوّنة من محرف واحد مكرر. يستثني سلة المحذوفات والقوالب. لا يفحص التسريبات ولا يضمن القوة. اضغط على إدخال لمراجعته.</string>
+    <string name="offline_review_reused">معاد استخدامها</string>
+    <string name="offline_review_short">قصيرة أو متكررة</string>
+    <string name="offline_review_error">تعذر إكمال الفحص. أعد المحاولة بعد فتح قفل قاعدة البيانات.</string>
+    <string name="offline_review_untitled">إدخال بلا عنوان</string>
+    <string name="offline_more_options">الملاحظات وانتهاء الصلاحية</string>
+    <string name="offline_less_options">إخفاء الملاحظات وانتهاء الصلاحية</string>
+</resources>

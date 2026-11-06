@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="atelierSeparator" format="color"/>
+    <attr name="atelierWallpaper" format="reference|color"/>
+    <attr name="atelierSceneStart" format="color"/>
+    <attr name="atelierSceneEnd" format="color"/>
+    <attr name="atelierSceneMotif" format="integer"/>
+    <declare-styleable name="AtelierArtworkView">
+        <attr name="atelierSceneStart"/>
+        <attr name="atelierSceneEnd"/>
+        <attr name="colorPrimary"/>
+        <attr name="colorSurface"/>
+        <attr name="colorOnSurface"/>
+        <attr name="atelierSceneMotif"/>
+    </declare-styleable>
+</resources>

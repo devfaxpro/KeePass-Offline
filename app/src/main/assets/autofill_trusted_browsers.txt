@@ -1,0 +1,12 @@
+Offline Autofill browser certificate allowlist.
+
+Derived from this repository's upstream KeePassDX assets:
+  app/src/free/assets/passkeys_privileged_apps_community.json
+  app/src/free/assets/passkeys_privileged_apps_google.json
+
+Only release certificate entries are included. Non-browser privileged clients
+com.google.android.gms, com.fido.fido2client and com.citrix.Receiver are excluded.
+This copy is in the main source set so both libre and free package it.
+No network fetch is performed. Unknown or changed signing identities fail closed;
+explicit custom privileged-app configuration remains available in the app.
+Retain the repository's GPL-3.0 license and upstream attribution when distributing.

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Localization completion. SPDX-License-Identifier: GPL-3.0-or-later -->
+<resources>
+    <string name="invalid_db_hmac">La vérification de la signature de la base de données a échoué. Le fichier est peut-être endommagé ou a été modifié par une autre application.</string>
+    <string-array name="timeout_options">
+        <item>5 secondes</item>
+        <item>10 secondes</item>
+        <item>20 secondes</item>
+        <item>30 secondes</item>
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>Jamais</item>
+    </string-array>
+    <string-array name="large_timeout_options">
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 heure</item>
+        <item>2 heures</item>
+        <item>5 heures</item>
+        <item>10 heures</item>
+        <item>24 heures</item>
+        <item>48 heures</item>
+        <item>1 semaine</item>
+        <item>1 mois</item>
+        <item>Jamais</item>
+    </string-array>
+</resources>

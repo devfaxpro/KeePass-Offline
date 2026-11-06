@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="offline_backup_title">Sicherung und Wiederherstellung</string>
+    <string name="offline_backup_summary">Speichere eine verschlüsselte Kopie mit denselben Hauptzugangsdaten. Wähle den Gerätespeicher oder einen USB-Stick, damit sie offline bleibt.</string>
+    <string name="offline_backup_last">Letzte erfolgreiche Kopie auf diesem Gerät: %1$s</string>
+    <string name="offline_backup_never">Keine Kopie vermerkt</string>
+    <string name="offline_restore_help">Zum Prüfen oder Wiederherstellen: Sperre die Datenbank, wähle Datenbank öffnen und die Kopie. Aktiviere vor dem Entsperren den Nur-Lese-Modus. Prüfe die Einträge, bevor du das Original ersetzt. Eine eingerichtete Schlüsseldatei oder ein Hardwareschlüssel bleibt erforderlich.</string>
+    <string name="offline_backup_create">Sicherung erstellen</string>
+    <string name="offline_review_title">Passwörter prüfen</string>
+    <string name="offline_review_running">Lokale Prüfung läuft…</string>
+    <string name="offline_review_summary">Geprüfte Passwörter: %1$d. Zu prüfende Einträge: %2$d.</string>
+    <string name="offline_review_scope">Prüft lokal auf wiederverwendete Passwörter, weniger als 12 Zeichen oder ein einziges wiederholtes Zeichen. Papierkorb und Vorlagen sind ausgeschlossen. Keine Prüfung auf Datenlecks oder Garantie der Stärke. Tippe zum Prüfen auf einen Eintrag.</string>
+    <string name="offline_review_reused">Wiederverwendet</string>
+    <string name="offline_review_short">Kurz oder repetitiv</string>
+    <string name="offline_review_error">Die Prüfung konnte nicht abgeschlossen werden. Versuche es mit entsperrter Datenbank erneut.</string>
+    <string name="offline_review_untitled">Eintrag ohne Titel</string>
+    <string name="offline_more_options">Notizen und Ablauf</string>
+    <string name="offline_less_options">Notizen und Ablauf ausblenden</string>
+</resources>

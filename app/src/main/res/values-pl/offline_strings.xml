@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="offline_backup_title">Kopia zapasowa i odzyskiwanie</string>
+    <string name="offline_backup_summary">Zapisz zaszyfrowaną kopię z tymi samymi głównymi danymi dostępu. Wybierz pamięć urządzenia lub USB, aby zachować ją offline.</string>
+    <string name="offline_backup_last">Ostatnia udana kopia na tym urządzeniu: %1$s</string>
+    <string name="offline_backup_never">Brak zapisanych kopii</string>
+    <string name="offline_restore_help">Aby sprawdzić lub odzyskać kopię: zablokuj bazę, wybierz Otwórz bazę danych i wskaż kopię. Przed odblokowaniem włącz tryb tylko do odczytu. Sprawdź wpisy przed zastąpieniem oryginału. Skonfigurowany plik klucza lub klucz sprzętowy nadal jest wymagany.</string>
+    <string name="offline_backup_create">Utwórz kopię</string>
+    <string name="offline_review_title">Przegląd haseł</string>
+    <string name="offline_review_running">Sprawdzanie lokalne…</string>
+    <string name="offline_review_summary">Sprawdzone hasła: %1$d. Wpisy do przejrzenia: %2$d.</string>
+    <string name="offline_review_scope">Lokalna kontrola haseł używanych ponownie, krótszych niż 12 znaków lub złożonych z jednego powtarzanego znaku. Pomija kosz i szablony. Nie sprawdza wycieków ani nie gwarantuje siły hasła. Dotknij wpisu, aby go przejrzeć.</string>
+    <string name="offline_review_reused">Używane ponownie</string>
+    <string name="offline_review_short">Krótkie lub powtarzalne</string>
+    <string name="offline_review_error">Nie udało się ukończyć kontroli. Spróbuj ponownie po odblokowaniu bazy.</string>
+    <string name="offline_review_untitled">Wpis bez tytułu</string>
+    <string name="offline_more_options">Notatki i ważność</string>
+    <string name="offline_less_options">Ukryj notatki i ważność</string>
+</resources>

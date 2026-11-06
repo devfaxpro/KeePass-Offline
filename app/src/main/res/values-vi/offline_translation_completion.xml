@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="branding_tagline">Trình quản lý mật khẩu ngoại tuyến. Tương thích KeePass.</string>
+    <string name="branding_origin">Bản phân nhánh độc lập dựa trên KeePassDX (Kunzisoft). Giữ nguyên ghi công và giấy phép GPLv3.</string>
+    <string name="modern_palette_title">Giao diện</string>
+    <string name="modern_palette_summary">Chọn diện mạo hoàn chỉnh cho kho mật khẩu</string>
+    <string name="modern_blue">Đại dương</string>
+    <string name="modern_green">Rừng</string>
+    <string name="modern_purple">Cực quang</string>
+    <string name="modern_red">San hô</string>
+    <string name="modern_orange">Cồn cát</string>
+    <string name="modern_teal">Ngọc bích</string>
+    <string name="modern_pink">Hoa anh đào</string>
+    <string name="modern_slate">Than chì</string>
+    <string name="modern_dynamic">Màu hình nền Android</string>
+    <string name="modern_legacy">Giao diện gốc</string>
+    <string name="modern_language">Ngôn ngữ</string>
+    <string name="modern_preview">Xem trước</string>
+    <string name="modern_preview_title">Mật khẩu của bạn. Phong cách của bạn.</string>
+    <string name="modern_preview_summary">Hình nền riêng và màu sắc đồng bộ, ở chế độ sáng hoặc tối.</string>
+    <string name="modern_search">Tìm trong kho mật khẩu</string>
+    <string name="invalid_db_hmac">Không xác minh được chữ ký cơ sở dữ liệu. Tệp có thể bị hỏng hoặc bị ứng dụng khác sửa đổi.</string>
+    <string name="save_success">Đã lưu thành công</string>
+    <string name="error_load_database_KDF_iteration">Số vòng lặp KDF quá cao.</string>
+    <string name="error_missing_parent">Không thể thực hiện nếu thiếu nhóm cha.</string>
+    <string name="parallelism_set_safe">Đặt số bộ xử lý</string>
+    <string name="temporary_merge_success">Đã hợp nhất dữ liệu tạm thời</string>
+    <string name="reload_success">Đã tải lại thành công</string>
+    <string name="autofill_suggestions_title">Gợi ý tự động điền</string>
+    <string name="autofill_suggestions_summary">Dùng thuật toán nhận diện biểu mẫu để gợi ý các mục</string>
+    <string name="passkey_relying_party">Dịch vụ xác thực của khóa truy cập</string>
+    <string name="passkey_backup_eligibility">Khả năng sao lưu khóa truy cập</string>
+    <string name="passkey_backup_state">Trạng thái sao lưu khóa truy cập</string>
+    <string name="passkey_pseudo_random_function">Hàm giả ngẫu nhiên của khóa truy cập</string>
+    <string name="error_passkey_result">Không thể trả về khóa truy cập</string>
+    <string name="error_passkey_credential_id">Không tìm thấy khóa truy cập cho dịch vụ %1$s và ID thông tin xác thực %2$s</string>
+    <string name="password_selection_description">Chọn mật khẩu hiện có</string>
+    <string name="error_password_result">Không thể trả về mật khẩu</string>
+    <string name="content_description_user_verification_information">Thông tin xác minh người dùng</string>
+    <string name="user_verification_required_title">Xác minh người dùng</string>
+    <string name="user_verification_required_description">Truy cập dữ liệu này yêu cầu xác minh danh tính của bạn.</string>
+    <string name="user_verification_required_description_precise">%1$s yêu cầu xác minh danh tính của bạn.</string>
+    <string name="first_chars">Các ký tự đầu</string>
+</resources>

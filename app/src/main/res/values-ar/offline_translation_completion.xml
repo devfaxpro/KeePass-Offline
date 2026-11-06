@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="branding_tagline">مدير كلمات مرور دون اتصال. متوافق مع KeePass.</string>
+    <string name="branding_origin">نسخة مستقلة مبنية على KeePassDX ‏(Kunzisoft). حُفظت الاعتمادات الأصلية ورخصة GPLv3.</string>
+    <string name="modern_palette_title">السمات</string>
+    <string name="modern_palette_summary">اختر مظهرًا كاملًا لخزنة كلمات المرور</string>
+    <string name="modern_blue">المحيط</string>
+    <string name="modern_green">الغابة</string>
+    <string name="modern_purple">الشفق</string>
+    <string name="modern_red">المرجان</string>
+    <string name="modern_orange">الكثبان</string>
+    <string name="modern_teal">اليشم</string>
+    <string name="modern_pink">ساكورا</string>
+    <string name="modern_slate">الغرافيت</string>
+    <string name="modern_dynamic">ألوان خلفية Android</string>
+    <string name="modern_legacy">السمات الأصلية</string>
+    <string name="modern_language">اللغة</string>
+    <string name="modern_preview">معاينة</string>
+    <string name="modern_preview_title">كلمات مرورك. أسلوبك.</string>
+    <string name="modern_preview_summary">خلفيات مميزة وألوان متناسقة في الوضع الفاتح أو الداكن.</string>
+    <string name="modern_search">ابحث في الخزنة</string>
+    <string name="invalid_db_hmac">فشل التحقق من توقيع قاعدة البيانات. قد يكون السبب تلف الملف أو تعديله بواسطة تطبيق خارجي.</string>
+    <string name="save_success">اكتمل الحفظ بنجاح</string>
+    <string name="error_load_database_KDF_iteration">عدد تكرارات KDF مرتفع جدًا.</string>
+</resources>

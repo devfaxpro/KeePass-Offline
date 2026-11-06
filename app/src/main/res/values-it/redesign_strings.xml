@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="modern_palette_title">Temi</string>
+    <string name="modern_palette_summary">Scegli uno stile completo per il tuo caveau</string>
+    <string name="modern_blue">Oceano</string>
+    <string name="modern_green">Bosco</string>
+    <string name="modern_purple">Aurora</string>
+    <string name="modern_red">Corallo</string>
+    <string name="modern_orange">Duna</string>
+    <string name="modern_teal">Giada</string>
+    <string name="modern_pink">Sakura</string>
+    <string name="modern_slate">Grafite</string>
+    <string name="modern_dynamic">Colori dello sfondo Android</string>
+    <string name="modern_legacy">Temi originali</string>
+    <string name="modern_language">Lingua</string>
+    <string name="modern_preview">Anteprima</string>
+    <string name="modern_preview_title">Le tue password. Il tuo stile.</string>
+    <string name="modern_preview_summary">Sfondi caratteristici e superfici coordinate, in modalità chiara o scura.</string>
+    <string name="modern_search">Cerca nell’archivio</string>
+</resources>

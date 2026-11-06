@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="offline_backup_title">สำรองและกู้คืน</string>
+    <string name="offline_backup_summary">บันทึกสำเนาที่เข้ารหัสด้วยข้อมูลรับรองหลักเดิม เลือกพื้นที่จัดเก็บในอุปกรณ์หรือ USB เพื่อเก็บแบบออฟไลน์</string>
+    <string name="offline_backup_last">สำเนาล่าสุดที่สร้างสำเร็จบนอุปกรณ์นี้: %1$s</string>
+    <string name="offline_backup_never">ยังไม่มีบันทึกการสร้างสำเนา</string>
+    <string name="offline_restore_help">วิธีตรวจสอบหรือกู้คืนข้อมูลสำรอง: ล็อกฐานข้อมูล เลือกเปิดฐานข้อมูล แล้วเลือกสำเนา เปิดโหมดอ่านอย่างเดียวก่อนปลดล็อก ตรวจสอบรายการก่อนแทนที่ต้นฉบับ หากตั้งค่าไฟล์กุญแจหรือกุญแจฮาร์ดแวร์ไว้ ยังต้องใช้เช่นเดิม</string>
+    <string name="offline_backup_create">สร้างข้อมูลสำรอง</string>
+    <string name="offline_review_title">ตรวจสอบรหัสผ่าน</string>
+    <string name="offline_review_running">กำลังตรวจสอบบนอุปกรณ์…</string>
+    <string name="offline_review_summary">รหัสผ่านที่ตรวจสอบ: %1$d รายการ รายการที่ควรทบทวน: %2$d รายการ</string>
+    <string name="offline_review_scope">ตรวจสอบรหัสผ่านที่ใช้ซ้ำ สั้นกว่า 12 อักขระ หรือมีอักขระเดียวซ้ำกันบนอุปกรณ์ ไม่รวมถังขยะและแม่แบบ ไม่ตรวจสอบการรั่วไหลหรือรับประกันความแข็งแกร่ง แตะรายการเพื่อทบทวน</string>
+    <string name="offline_review_reused">ใช้ซ้ำ</string>
+    <string name="offline_review_short">สั้นหรือซ้ำกัน</string>
+    <string name="offline_review_error">ตรวจสอบไม่สำเร็จ โปรดปลดล็อกฐานข้อมูลแล้วลองอีกครั้ง</string>
+    <string name="offline_review_untitled">รายการไม่มีชื่อ</string>
+    <string name="offline_more_options">บันทึกและวันหมดอายุ</string>
+    <string name="offline_less_options">ซ่อนบันทึกและวันหมดอายุ</string>
+</resources>

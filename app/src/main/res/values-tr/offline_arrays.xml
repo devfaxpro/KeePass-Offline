@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string-array name="timeout_options">
+        <item>5 saniye</item>
+        <item>10 saniye</item>
+        <item>20 saniye</item>
+        <item>30 saniye</item>
+        <item>1 dakika</item>
+        <item>5 dakika</item>
+        <item>15 dakika</item>
+        <item>30 dakika</item>
+        <item>Asla</item>
+    </string-array>
+    <string-array name="large_timeout_options">
+        <item>5 dakika</item>
+        <item>15 dakika</item>
+        <item>30 dakika</item>
+        <item>1 saat</item>
+        <item>2 saat</item>
+        <item>5 saat</item>
+        <item>10 saat</item>
+        <item>24 saat</item>
+        <item>48 saat</item>
+        <item>1 hafta</item>
+        <item>1 ay</item>
+        <item>Asla</item>
+    </string-array>
+    <string-array name="list_size_options">
+        <item>Küçük</item>
+        <item>Orta</item>
+        <item>Büyük</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="modern_palette_title">테마</string>
+    <string name="modern_palette_summary">보관함 전체에 적용할 스타일을 선택하세요</string>
+    <string name="modern_blue">오션</string>
+    <string name="modern_green">포레스트</string>
+    <string name="modern_purple">오로라</string>
+    <string name="modern_red">코랄</string>
+    <string name="modern_orange">듄</string>
+    <string name="modern_teal">제이드</string>
+    <string name="modern_pink">사쿠라</string>
+    <string name="modern_slate">그래파이트</string>
+    <string name="modern_dynamic">Android 배경화면 색상</string>
+    <string name="modern_legacy">기존 테마</string>
+    <string name="modern_language">언어</string>
+    <string name="modern_preview">미리보기</string>
+    <string name="modern_preview_title">나의 비밀번호, 나만의 스타일.</string>
+    <string name="modern_preview_summary">개성 있는 배경과 조화로운 색상을 라이트 및 다크 모드에서 만나보세요.</string>
+    <string name="modern_search">보관함 검색</string>
+</resources>

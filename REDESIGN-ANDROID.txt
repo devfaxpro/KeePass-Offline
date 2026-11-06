@@ -1,0 +1,372 @@
+DOCUMENTAZIONE STORICA: vedere RELEASE-BUILD.txt per la versione corrente.
+
+PER KEEPASS — PULSANTI PIU COMPATTI
+22 ottobre 2026
+
+CONSEGNA
+APK di sviluppo aggiornato: Per-KeePass-pulsanti-compatti-debug.apk
+Questo APK aggiorna il precedente Per-KeePass-temi-fix-debug.apk con la stessa firma locale.
+Sorgenti: Per-KeePass-AndroidStudio.zip e cartella KeePassDX.
+Icona: Per-KeePass-icona.png; simbolo trasparente: Per-KeePass-simbolo.png.
+Il progetto è reale, nativo Android, e deriva da https://github.com/Kunzisoft/KeePassDX.
+Branch locale: redesign/android-themes
+Commit originale: 2db52c5fd016aad50352ba60383f6aefd29100c4
+Nome visibile: Per KeePass, come richiesto.
+ApplicationId, versione 4.5.5, GPLv3 e attribuzioni originali conservati.
+Variante compilata: libreDebug, applicationId com.kunzisoft.keepass.libre.
+Il repository originale non è stato modificato; nessuna pubblicazione o push eseguiti.
+Modifiche realizzate con assistenza di Codex/OpenAI; non sono contributi ufficiali di Kunzisoft.
+
+MODIFICHE IMPLEMENTATE
+Pulsanti con testo più compatti: carattere da 17 a 15 sp, padding verticale
+da 14 a 8 dp e orizzontale da 24 a 16 dp, angoli da 18 a 12 dp.
+Area toccabile minima di 48 dp; sfondo rientrato di 4 dp sopra e sotto.
+L'altezza resta adattabile per testi lunghi e caratteri ingranditi.
+Ricerca più compatta, voci delle impostazioni con meno spazio verticale,
+schede dei temi con anteprima da 64 dp anziché 96 dp ed etichette più raccolte.
+
+Corretto il crash all'apertura della schermata Temi, riprodotto con Robolectric
+su Android 14 (API 34): MaterialCardViewHelper.animateCheckedIcon tentava di
+animare un'icona eliminata dopo l'avvio dell'animazione di selezione.
+La galleria ora configura l'icona prima dello stato selezionato.
+Nessun cambiamento ai temi salvati o ai dati dei database.
+
+Nome e icona: aggiornata l'identità visibile nel launcher, nella schermata iniziale,
+nello sblocco, nelle informazioni e nelle etichette dei servizi Android.
+I riferimenti di compatibilità, gli URL originali e i crediti KeePassDX/Kunzisoft
+restano espliciti. La pagina Informazioni identifica il progetto come fork indipendente.
+Icona originale con scudo blu, lucchetto bianco e tre punti per la password nascosta.
+Creata con lo strumento ImageGen integrato: prompt e dettagli in ICONA-Per-KeePass.txt
+e art/per-keepass/README.txt. Esportate 6 densità, forma standard e circolare,
+icona adattiva e variante monocromatica per i launcher Android compatibili.
+Nome e descrizioni rispettano le dieci lingue stabilite.
+
+1. Otto temi completi: Oceano, Bosco, Aurora, Corallo, Duna, Giada, Sakura e Grafite.
+   Ciascuno ha colori propri per sfondo, superfici, bordi, testi e accenti secondari,
+   in modalità chiara e scura. Fondi sfumati e motivi vettoriali originali:
+   onde, chiome, nastri, alba, dune, giada, petali e piani diagonali.
+   Lo stile si ispira a titoli grandi, controlli arrotondati e superfici pulite
+   delle interfacce Apple, utilizzando componenti e font Android e disegni originali.
+   Nessun effetto di sfocatura legge o copia il contenuto delle schermate.
+2. Modalità chiara, scura o secondo il sistema; scelta persistente.
+   Colori dello sfondo Android tramite DynamicColors sui dispositivi compatibili;
+   ripiego blu quando non disponibili. Transizione blu/dinamico gestita anche
+   quando la risorsa base del tema è identica.
+3. Impostazioni > Aspetto > Temi: galleria con anteprime, selezione immediata,
+   segno di spunta e stato selezionato per TalkBack. Il valore già salvato viene
+   conservato; le otto vecchie scelte colore corrispondono ai nuovi temi.
+   Due colonne normalmente, una colonna con testo dal 150% in su.
+   Colori Android e Temi originali mantengono i percorsi e la disponibilità esistenti.
+4. Barra di ricerca visibile nella schermata del database e accesso diretto
+   alle impostazioni. Ricerca, navigazione tra gruppi e azioni di aggiunta
+   riutilizzano i percorsi applicativi originali.
+5. Sfondi sfumati distinti e schede opache leggibili, con bordi sottili e angoli
+   da 20–22 dp. Le impostazioni usano schede rientrate con angoli da 12 dp.
+   Elenco database con righe alte almeno 80 dp; credenziali e gruppi mantengono
+   un'altezza minima di 76 dp. Gli sfondi a motivo ripetuto originali restano rimossi.
+6. Pulsanti rettangolari morbidi con angoli da 12 dp, testo da 15 sp e area
+   toccabile minima di 48 dp. Azioni secondarie tenui, campi da 14 dp e ricerca da 12 dp,
+   finestre di dialogo da 28 dp. I campi conservano l'indicatore di focus.
+7. Schermata iniziale con titolo da 34 sp allineato a sinistra e pannello illustrato
+   che cambia con il tema. Apri e Crea database restano su due righe a tutta larghezza.
+   Anche lo sblocco ha un'azione principale a tutta larghezza e la biometria sotto.
+   Password mascherate, copia, TOTP e campi personalizzati usano i componenti originali.
+8. Selettore in quest'ordine: Italiano, English, Español, Português (Brasil),
+   Français, Deutsch, 简体中文, 日本語, 한국어, Русский. I codici non sono visibili.
+   Tutte le 17 nuove diciture sono presenti nelle dieci lingue; aggiunti anche
+   messaggi recenti mancanti nelle traduzioni preesistenti, 368 voci coreane
+   mancanti e opzioni di durata tradotte nelle nove lingue diverse dall'inglese.
+   Il controllo di copertura conferma 757 chiavi testuali principali in ogni lingua.
+
+ANALISI E SCELTE TECNICHE
+Il modulo app contiene Activity, Fragment, ViewModel/Flow, viste personalizzate,
+layout XML e preferenze. GroupActivity usa un drawer, breadcrumb e SearchFragment;
+EntryActivity/EntryEditActivity riutilizzano TemplateView/TemplateEditView;
+MainCredentialActivity gestisce la UI di sblocco; Stylish applica i temi.
+database gestisce i modelli e i formati; crypto contiene il codice crittografico
+e JNI; icon-pack conserva le icone esistenti.
+README e CONTRIBUTING letti. La build è stata verificata sul codice originale
+prima dell'implementazione del design system, quindi della schermata principale.
+Material 3 era già presente: mantenuti XML e architettura, senza migrazione Compose.
+Nessuna nuova dipendenza applicativa, tracker, pubblicità o permesso di rete.
+Verificato via diff che database, crypto, biometria, provider, servizi, protezioni
+AppUtil, dipendenze e configurazione applicativa Gradle non sono cambiati.
+StylishActivity modifica soltanto il rilevamento del cambio palette, conservando
+il percorso esistente che applica FLAG_SECURE.
+
+VERSIONI VERIFICATE
+Gradle 8.14.2; Android Gradle Plugin 8.13.2; Kotlin 2.0.0;
+KSP 2.0.0-1.0.21; Material 1.9.0; Robolectric 4.11.1.
+compileSdk/targetSdk 36; minSdk 19; bytecode Java/Kotlin 17.
+Build eseguite con JBR/JDK 21.0.11, NDK 25.2.9519653 e CMake 3.22.1.
+
+COMPILAZIONI E TEST
+Base originale: APK compilato e 13 test app superati.
+Design system: assembleLibreDebug + testLibreDebugUnitTest, successo (20 test).
+Schermata principale: assembleLibreDebug + testLibreDebugUnitTest, successo (21 test).
+Versione finale: assembleLibreDebug + testLibreDebugUnitTest + lintAnalyzeLibreDebug,
+BUILD SUCCESSFUL; 29 test app, nessun errore o test saltato.
+Modulo database invariato: testDebugUnitTest eseguito nella fase precedente,
+BUILD SUCCESSFUL;
+100 test, nessun errore o test saltato.
+Totale test unitari registrati: 129.
+I test aggiunti verificano contrasto minimo 4,5:1, risoluzione/persistenza del tema,
+ordine delle lingue, inflazione dei componenti nelle 16 combinazioni palette/modalità,
+FLAG_SECURE dopo ricreazione, password mascherata e opzioni IME riservate.
+La schermata principale è misurata a 320 dp con testo al 200% nelle dieci lingue,
+in modalità chiara e scura, verificando dimensioni e separazione delle azioni.
+La nuova schermata iniziale è misurata a 320 x 640 dp, con testo al 100% e al 200%,
+nelle dieci lingue e in entrambe le modalità: pulsanti visibili, testo senza tagli,
+azioni senza sovrapposizioni e area scorrevole disponibile.
+Schermata iniziale, sblocco ed elenco database inclusi nei controlli di inflazione
+per tutte le 16 combinazioni di palette e luminosità.
+La galleria è verificata nelle dieci lingue, con testo al 100% e 200% e in entrambe
+le modalità. Test aggiunti per selezione tramite anteprima, callback originale,
+persistenza dopo ricreazione della preferenza, TalkBack e selezioni rifiutate o invalide.
+Contrasto verificato anche sugli sfondi dei nuovi temi e sui due estremi dei pannelli.
+Componenti condivisi del dettaglio e vista gruppo inclusi nei controlli di inflazione.
+Regressione crash: caricamento dell'intero fragment Aspetto dal suo XML,
+con esecuzione delle animazioni su API 19, 28 e 34; selezione e ricreazione.
+Navigazione dall'attività SettingsActivity ad Aspetto verificata su API 34.
+Il crash è stato osservato prima della correzione e non si ripresenta nei test
+della versione corretta. Queste sono prove JVM/Robolectric, non su telefono fisico.
+tools/check_redesign_resources.py: PASS per le 17 diciture in tutte le dieci lingue.
+PASS anche per 757 chiavi di interfaccia, le tre liste di opzioni testuali e i
+parametri di formattazione delle nuove traduzioni di completamento.
+Controlli XML e git diff --check eseguiti. Risultati XML e log in verifiche/.
+Firma APK verificata con apksigner: valida (schemi v1 e v2), certificato debug.
+Certificato confrontato con la consegna precedente e identico; zipalign -c 4 superato.
+Metadati APK verificati con aapt: nessun permesso INTERNET; ABI armeabi-v7a,
+arm64-v8a, x86, x86_64. Il log conserva gli avvisi di apksigner sui metadati
+META-INF non coperti dallo schema v1; la verifica complessiva e lo schema v2 passano.
+
+LIMITI E LAVORO ANCORA APERTO
+- Questa è una prima implementazione compilata, non una release pronta alla
+  distribuzione: la rifinitura visiva finale richiede l'app in esecuzione su dispositivo.
+- Nessun telefono collegato, verificato il 22 ottobre con adb devices.
+  Il controllo dell'emulatore segnala l'accelerazione Hyper-V/WHP non disponibile.
+  Non prodotti screenshot dell'app; la galleria interna mostra anteprime vettoriali.
+- Non verificati su dispositivo i flussi completi KDBX, biometria, autofill,
+  passkey, appunti, TOTP/HOTP, blocco automatico e colori dinamici del produttore.
+  I test unitari e la conservazione del codice non sostituiscono queste prove.
+- Lint completo NON superato: lintReportLibreDebug non riesce a scrivere il report
+  nel sandbox. L'analisi lintAnalyzeLibreDebug è stata eseguita e i risultati
+  intermedi sono salvati. Restano segnalazioni in codice originale, tra cui
+  SuspiciousIndentation, RestrictedApi e StringFormatInvalid; vedere lint-errori.json.
+  Non sono stati silenziati questi problemi. La policy MissingTranslation del
+  file delle nuove diciture segue quella originale per le altre lingue, mentre
+  la copertura delle dieci lingue richieste è controllata separatamente.
+- La copertura testuale delle dieci lingue è stata controllata automaticamente;
+  una revisione linguistica e visiva su dispositivo resta utile per tutte le
+  schermate ereditate. Nomi propri e termini tecnici mantengono la forma originale.
+- L'APK è firmato con una chiave debug locale. Usarlo per prove con dati fittizi.
+  Conservando l'applicationId originale, non può aggiornare una copia ufficiale
+  firmata con una chiave diversa. Usare un dispositivo o emulatore di test;
+  non rimuovere l'installazione che contiene i propri dati per questa prova.
+  Una nuova compilazione locale usa la propria chiave debug di Android Studio.
+
+ANDROID STUDIO — COMPILARE E AVVIARE
+1. Aprire la cartella KeePassDX oppure estrarre Per-KeePass-AndroidStudio.zip e
+   scegliere File > Open sulla cartella con settings.gradle.kts.
+2. In Settings > Build, Execution, Deployment > Build Tools > Gradle selezionare
+   un Gradle JDK 21 (o 17). La compilazione qui è stata verificata con JDK 21.
+3. In SDK Manager installare Android SDK Platform 36, Build-Tools 35.0.0,
+   NDK (Side by side) 25.2.9519653 e CMake 3.22.1. Accettare le licenze richieste.
+   L'archivio non contiene local.properties: Android Studio configura il percorso SDK.
+4. Completare Gradle Sync e selezionare la variante app: libreDebug.
+5. Avviare un emulatore con accelerazione disponibile oppure collegare un
+   dispositivo Android di test con debug USB, quindi premere Run per il modulo app.
+6. Con un database dimostrativo verificare creazione, apertura, modifica,
+   salvataggio e riapertura; provare ricerca, gruppi, campi protetti e blocco.
+7. In Impostazioni > Aspetto provare palette, modalità, cambio lingua e riavvio.
+
+Da PowerShell, con JAVA_HOME impostato al JDK scelto e SDK configurato:
+  .\gradlew.bat :app:assembleLibreDebug :app:testLibreDebugUnitTest :database:testDebugUnitTest --no-configuration-cache
+APK generato: app/build/outputs/apk/libre/debug/app-libre-debug.apk
+Controllo statico completo: .\gradlew.bat :app:lintLibreDebug --no-configuration-cache
+Controllo traduzioni, se Python è disponibile: python tools/check_redesign_resources.py
+Per pubblicare serviranno identità del fork, firma release e verifiche su dispositivo.
+
+SHA-256 APK CONSEGNATO
+0836a26e1c6684c5360ece797e06ee74a74851adaf10ee56c24a66b8ee84071b
+
+FILE MODIFICATI O AGGIUNTI (percorsi relativi al progetto)
+README.md
+REDESIGN-ANDROID.txt
+app/src/free/res/mipmap-hdpi/ic_launcher.png
+app/src/free/res/mipmap-hdpi/ic_launcher_round.png
+app/src/free/res/mipmap-ldpi/ic_launcher.png
+app/src/free/res/mipmap-ldpi/ic_launcher_round.png
+app/src/free/res/mipmap-mdpi/ic_launcher.png
+app/src/free/res/mipmap-mdpi/ic_launcher_round.png
+app/src/free/res/mipmap-xhdpi/ic_launcher.png
+app/src/free/res/mipmap-xhdpi/ic_launcher_round.png
+app/src/free/res/mipmap-xxhdpi/ic_launcher.png
+app/src/free/res/mipmap-xxhdpi/ic_launcher_round.png
+app/src/free/res/mipmap-xxxhdpi/ic_launcher.png
+app/src/free/res/mipmap-xxxhdpi/ic_launcher_round.png
+app/src/libre/res/mipmap-hdpi/ic_launcher.png
+app/src/libre/res/mipmap-hdpi/ic_launcher_round.png
+app/src/libre/res/mipmap-ldpi/ic_launcher.png
+app/src/libre/res/mipmap-ldpi/ic_launcher_round.png
+app/src/libre/res/mipmap-mdpi/ic_launcher.png
+app/src/libre/res/mipmap-mdpi/ic_launcher_round.png
+app/src/libre/res/mipmap-xhdpi/ic_launcher.png
+app/src/libre/res/mipmap-xhdpi/ic_launcher_round.png
+app/src/libre/res/mipmap-xxhdpi/ic_launcher.png
+app/src/libre/res/mipmap-xxhdpi/ic_launcher_round.png
+app/src/libre/res/mipmap-xxxhdpi/ic_launcher.png
+app/src/libre/res/mipmap-xxxhdpi/ic_launcher_round.png
+app/src/main/AndroidManifest.xml
+app/src/main/java/com/kunzisoft/keepass/activities/GroupActivity.kt
+app/src/main/java/com/kunzisoft/keepass/activities/stylish/AppearancePalette.kt
+app/src/main/java/com/kunzisoft/keepass/activities/stylish/Stylish.kt
+app/src/main/java/com/kunzisoft/keepass/activities/stylish/StylishActivity.kt
+app/src/main/java/com/kunzisoft/keepass/settings/NestedAppSettingsFragment.kt
+app/src/main/java/com/kunzisoft/keepass/settings/preference/ThemeGalleryPreference.kt
+app/src/main/java/com/kunzisoft/keepass/view/AtelierArtworkView.kt
+app/src/main/res/drawable-nodpi/per_keepass_foreground.png
+app/src/main/res/drawable-v21/background_item_selection.xml
+app/src/main/res/drawable-v21/soft_icon_button.xml
+app/src/main/res/drawable-v24/per_keepass_monochrome.xml
+app/src/main/res/drawable/atelier_blue_light.xml
+app/src/main/res/drawable/atelier_blue_night.xml
+app/src/main/res/drawable/atelier_green_light.xml
+app/src/main/res/drawable/atelier_green_night.xml
+app/src/main/res/drawable/atelier_orange_light.xml
+app/src/main/res/drawable/atelier_orange_night.xml
+app/src/main/res/drawable/atelier_pink_light.xml
+app/src/main/res/drawable/atelier_pink_night.xml
+app/src/main/res/drawable/atelier_purple_light.xml
+app/src/main/res/drawable/atelier_purple_night.xml
+app/src/main/res/drawable/atelier_red_light.xml
+app/src/main/res/drawable/atelier_red_night.xml
+app/src/main/res/drawable/atelier_slate_light.xml
+app/src/main/res/drawable/atelier_slate_night.xml
+app/src/main/res/drawable/atelier_teal_light.xml
+app/src/main/res/drawable/atelier_teal_night.xml
+app/src/main/res/drawable/background_item_selection.xml
+app/src/main/res/drawable/soft_icon_button.xml
+app/src/main/res/layout-v23/view_device_unlock.xml
+app/src/main/res/layout/activity_about.xml
+app/src/main/res/layout/activity_entry.xml
+app/src/main/res/layout/activity_entry_edit.xml
+app/src/main/res/layout/activity_file_selection.xml
+app/src/main/res/layout/activity_group.xml
+app/src/main/res/layout/activity_icon_picker.xml
+app/src/main/res/layout/activity_image_viewer.xml
+app/src/main/res/layout/activity_key_generator.xml
+app/src/main/res/layout/activity_main_credential.xml
+app/src/main/res/layout/activity_toolbar.xml
+app/src/main/res/layout/fragment_group.xml
+app/src/main/res/layout/fragment_nodes.xml
+app/src/main/res/layout/item_file_info.xml
+app/src/main/res/layout/item_list_nodes_entry.xml
+app/src/main/res/layout/item_list_nodes_group.xml
+app/src/main/res/layout/preference_appearance_preview.xml
+app/src/main/res/layout/preference_category_material.xml
+app/src/main/res/layout/preference_material.xml
+app/src/main/res/layout/preference_theme_gallery.xml
+app/src/main/res/layout/view_main_credentials.xml
+app/src/main/res/layout/view_template.xml
+app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+app/src/main/res/values-ar/strings.xml
+app/src/main/res/values-az/strings.xml
+app/src/main/res/values-b+sr+Latn/strings.xml
+app/src/main/res/values-b+yue+Hant/strings.xml
+app/src/main/res/values-be/strings.xml
+app/src/main/res/values-bg/strings.xml
+app/src/main/res/values-bn/strings.xml
+app/src/main/res/values-ca/strings.xml
+app/src/main/res/values-cs/strings.xml
+app/src/main/res/values-da/strings.xml
+app/src/main/res/values-de/branding_strings.xml
+app/src/main/res/values-de/redesign_strings.xml
+app/src/main/res/values-de/strings.xml
+app/src/main/res/values-de/translation_completion.xml
+app/src/main/res/values-el/strings.xml
+app/src/main/res/values-en-rGB/strings.xml
+app/src/main/res/values-es/branding_strings.xml
+app/src/main/res/values-es/redesign_strings.xml
+app/src/main/res/values-es/strings.xml
+app/src/main/res/values-es/translation_completion.xml
+app/src/main/res/values-et/strings.xml
+app/src/main/res/values-eu/strings.xml
+app/src/main/res/values-fa/strings.xml
+app/src/main/res/values-fi/strings.xml
+app/src/main/res/values-fil/strings.xml
+app/src/main/res/values-fr/branding_strings.xml
+app/src/main/res/values-fr/redesign_strings.xml
+app/src/main/res/values-fr/strings.xml
+app/src/main/res/values-fr/translation_completion.xml
+app/src/main/res/values-gl/strings.xml
+app/src/main/res/values-hi/strings.xml
+app/src/main/res/values-hr/strings.xml
+app/src/main/res/values-hu/strings.xml
+app/src/main/res/values-in/strings.xml
+app/src/main/res/values-it/branding_strings.xml
+app/src/main/res/values-it/redesign_strings.xml
+app/src/main/res/values-it/strings.xml
+app/src/main/res/values-it/translation_completion.xml
+app/src/main/res/values-iw/strings.xml
+app/src/main/res/values-ja/branding_strings.xml
+app/src/main/res/values-ja/redesign_strings.xml
+app/src/main/res/values-ja/strings.xml
+app/src/main/res/values-ja/translation_completion.xml
+app/src/main/res/values-ko/branding_strings.xml
+app/src/main/res/values-ko/redesign_strings.xml
+app/src/main/res/values-ko/strings.xml
+app/src/main/res/values-ko/translation_completion.xml
+app/src/main/res/values-lt/strings.xml
+app/src/main/res/values-lv/strings.xml
+app/src/main/res/values-ml/strings.xml
+app/src/main/res/values-nb/strings.xml
+app/src/main/res/values-nl/strings.xml
+app/src/main/res/values-nn/strings.xml
+app/src/main/res/values-pa/strings.xml
+app/src/main/res/values-pl/strings.xml
+app/src/main/res/values-pt-rBR/branding_strings.xml
+app/src/main/res/values-pt-rBR/redesign_strings.xml
+app/src/main/res/values-pt-rBR/strings.xml
+app/src/main/res/values-pt-rBR/translation_completion.xml
+app/src/main/res/values-pt-rPT/strings.xml
+app/src/main/res/values-pt/strings.xml
+app/src/main/res/values-ro/strings.xml
+app/src/main/res/values-ru/branding_strings.xml
+app/src/main/res/values-ru/redesign_strings.xml
+app/src/main/res/values-ru/strings.xml
+app/src/main/res/values-ru/translation_completion.xml
+app/src/main/res/values-sk/strings.xml
+app/src/main/res/values-sq/strings.xml
+app/src/main/res/values-sv/strings.xml
+app/src/main/res/values-ta/strings.xml
+app/src/main/res/values-th/strings.xml
+app/src/main/res/values-tr/strings.xml
+app/src/main/res/values-uk/strings.xml
+app/src/main/res/values-vi/strings.xml
+app/src/main/res/values-zh-rCN/branding_strings.xml
+app/src/main/res/values-zh-rCN/redesign_strings.xml
+app/src/main/res/values-zh-rCN/strings.xml
+app/src/main/res/values-zh-rCN/translation_completion.xml
+app/src/main/res/values-zh-rTW/strings.xml
+app/src/main/res/values/attrs_atelier.xml
+app/src/main/res/values/branding_colors.xml
+app/src/main/res/values/branding_strings.xml
+app/src/main/res/values/dimens.xml
+app/src/main/res/values/donottranslate.xml
+app/src/main/res/values/redesign_arrays.xml
+app/src/main/res/values/redesign_strings.xml
+app/src/main/res/values/strings.xml
+app/src/main/res/values/styles.xml
+app/src/main/res/values/styles_modern.xml
+app/src/main/res/values/styles_soft.xml
+app/src/main/res/xml/preferences_appearance.xml
+app/src/test/java/com/kunzisoft/keepass/activities/stylish/AppearancePaletteTest.kt
+app/src/test/java/com/kunzisoft/keepass/activities/stylish/AppearanceSettingsTest.kt
+app/src/test/java/com/kunzisoft/keepass/activities/stylish/MainLayoutTest.kt
+app/src/test/java/com/kunzisoft/keepass/activities/stylish/ThemeGalleryTest.kt
+art/per-keepass/README.txt
+art/per-keepass/foreground-original.png
+art/per-keepass/launcher-preview.png
+tools/check_redesign_resources.py

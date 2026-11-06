@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string-array name="timeout_options">
+        <item>5 سیکنڈ</item>
+        <item>10 سیکنڈ</item>
+        <item>20 سیکنڈ</item>
+        <item>30 سیکنڈ</item>
+        <item>1 منٹ</item>
+        <item>5 منٹ</item>
+        <item>15 منٹ</item>
+        <item>30 منٹ</item>
+        <item>کبھی نہیں</item>
+    </string-array>
+    <string-array name="large_timeout_options">
+        <item>5 منٹ</item>
+        <item>15 منٹ</item>
+        <item>30 منٹ</item>
+        <item>1 گھنٹہ</item>
+        <item>2 گھنٹے</item>
+        <item>5 گھنٹے</item>
+        <item>10 گھنٹے</item>
+        <item>24 گھنٹے</item>
+        <item>48 گھنٹے</item>
+        <item>1 ہفتہ</item>
+        <item>1 مہینہ</item>
+        <item>کبھی نہیں</item>
+    </string-array>
+    <string-array name="list_size_options">
+        <item>چھوٹا</item>
+        <item>درمیانہ</item>
+        <item>بڑا</item>
+    </string-array>
+</resources>

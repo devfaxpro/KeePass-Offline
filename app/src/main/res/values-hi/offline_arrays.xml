@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string-array name="timeout_options">
+        <item>5 सेकंड</item>
+        <item>10 सेकंड</item>
+        <item>20 सेकंड</item>
+        <item>30 सेकंड</item>
+        <item>1 मिनट</item>
+        <item>5 मिनट</item>
+        <item>15 मिनट</item>
+        <item>30 मिनट</item>
+        <item>कभी नहीं</item>
+    </string-array>
+    <string-array name="large_timeout_options">
+        <item>5 मिनट</item>
+        <item>15 मिनट</item>
+        <item>30 मिनट</item>
+        <item>1 घंटा</item>
+        <item>2 घंटे</item>
+        <item>5 घंटे</item>
+        <item>10 घंटे</item>
+        <item>24 घंटे</item>
+        <item>48 घंटे</item>
+        <item>1 सप्ताह</item>
+        <item>1 महीना</item>
+        <item>कभी नहीं</item>
+    </string-array>
+    <string-array name="list_size_options">
+        <item>छोटा</item>
+        <item>मध्यम</item>
+        <item>बड़ा</item>
+    </string-array>
+</resources>

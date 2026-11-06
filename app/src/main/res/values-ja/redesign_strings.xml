@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="modern_palette_title">テーマ</string>
+    <string name="modern_palette_summary">保管庫全体のデザインを選択</string>
+    <string name="modern_blue">オーシャン</string>
+    <string name="modern_green">フォレスト</string>
+    <string name="modern_purple">オーロラ</string>
+    <string name="modern_red">コーラル</string>
+    <string name="modern_orange">デューン</string>
+    <string name="modern_teal">ジェイド</string>
+    <string name="modern_pink">サクラ</string>
+    <string name="modern_slate">グラファイト</string>
+    <string name="modern_dynamic">Android の壁紙の色</string>
+    <string name="modern_legacy">従来のテーマ</string>
+    <string name="modern_language">言語</string>
+    <string name="modern_preview">プレビュー</string>
+    <string name="modern_preview_title">あなたのパスワードを、あなたらしく。</string>
+    <string name="modern_preview_summary">個性ある背景と統一感のある配色。ライト・ダークモードに対応。</string>
+    <string name="modern_search">データベースを検索</string>
+</resources>

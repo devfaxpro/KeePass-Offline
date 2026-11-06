@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="offline_backup_title">ব্যাকআপ ও পুনরুদ্ধার</string>
+    <string name="offline_backup_summary">একই মূল পরিচয়পত্র দিয়ে এনক্রিপ্ট করা কপি সংরক্ষণ করুন। অফলাইনে রাখতে ডিভাইসের স্টোরেজ বা USB বেছে নিন।</string>
+    <string name="offline_backup_last">এই ডিভাইসে সর্বশেষ সফল কপি: %1$s</string>
+    <string name="offline_backup_never">কোনো কপির রেকর্ড নেই</string>
+    <string name="offline_restore_help">ব্যাকআপ যাচাই বা পুনরুদ্ধার করতে: ডেটাবেস লক করুন, ডেটাবেস খুলুন বেছে নিয়ে কপিটি নির্বাচন করুন। আনলক করার আগে শুধু পড়ার মোড চালু করুন। মূল ফাইল বদলানোর আগে এন্ট্রিগুলো যাচাই করুন। সেট করা থাকলে কী ফাইল বা হার্ডওয়্যার কী এখনও লাগবে।</string>
+    <string name="offline_backup_create">ব্যাকআপ তৈরি করুন</string>
+    <string name="offline_review_title">পাসওয়ার্ড যাচাই</string>
+    <string name="offline_review_running">ডিভাইসে যাচাই হচ্ছে…</string>
+    <string name="offline_review_summary">যাচাই করা পাসওয়ার্ড: %1$d। পর্যালোচনার এন্ট্রি: %2$d।</string>
+    <string name="offline_review_scope">পুনর্ব্যবহৃত, ১২ অক্ষরের কম বা একই অক্ষরের পুনরাবৃত্তিতে তৈরি পাসওয়ার্ড স্থানীয়ভাবে যাচাই করে। ট্র্যাশ ও টেমপ্লেট বাদ থাকে। তথ্য ফাঁস যাচাই করে না বা শক্তির নিশ্চয়তা দেয় না। পর্যালোচনা করতে এন্ট্রিতে ট্যাপ করুন।</string>
+    <string name="offline_review_reused">পুনর্ব্যবহৃত</string>
+    <string name="offline_review_short">ছোট বা পুনরাবৃত্ত</string>
+    <string name="offline_review_error">যাচাই শেষ করা যায়নি। ডেটাবেস আনলক করে আবার চেষ্টা করুন।</string>
+    <string name="offline_review_untitled">শিরোনামহীন এন্ট্রি</string>
+    <string name="offline_more_options">নোট ও মেয়াদ</string>
+    <string name="offline_less_options">নোট ও মেয়াদ লুকান</string>
+</resources>

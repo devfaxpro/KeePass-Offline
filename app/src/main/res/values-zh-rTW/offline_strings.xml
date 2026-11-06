@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="offline_backup_title">備份與復原</string>
+    <string name="offline_backup_summary">使用相同的主憑證儲存加密副本。選擇裝置儲存空間或 USB 儲存裝置，以維持離線。</string>
+    <string name="offline_backup_last">此裝置上次成功建立副本：%1$s</string>
+    <string name="offline_backup_never">尚無副本紀錄</string>
+    <string name="offline_restore_help">驗證或復原備份：鎖定資料庫，選擇「開啟資料庫」，然後選取副本。解鎖前啟用唯讀模式。確認項目無誤後再取代原始檔案。如果設定了金鑰檔案或硬體金鑰，仍須使用。</string>
+    <string name="offline_backup_create">建立備份</string>
+    <string name="offline_review_title">密碼檢查</string>
+    <string name="offline_review_running">正在本機檢查…</string>
+    <string name="offline_review_summary">已檢查密碼：%1$d。待檢查項目：%2$d。</string>
+    <string name="offline_review_scope">在本機檢查重複使用、少於 12 個字元或僅由同一字元重複組成的密碼。不包含資源回收筒和範本。不檢查資料外洩，也不保證密碼強度。點選項目進行檢視。</string>
+    <string name="offline_review_reused">重複使用</string>
+    <string name="offline_review_short">過短或重複字元</string>
+    <string name="offline_review_error">無法完成檢查。請在資料庫解鎖後重試。</string>
+    <string name="offline_review_untitled">無標題項目</string>
+    <string name="offline_more_options">備註與到期時間</string>
+    <string name="offline_less_options">隱藏備註與到期時間</string>
+</resources>

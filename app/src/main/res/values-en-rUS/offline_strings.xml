@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="offline_backup_title">Backup and recovery</string>
+    <string name="offline_backup_summary">Save an encrypted copy with the same master credentials. Choose device storage or USB to keep it offline.</string>
+    <string name="offline_backup_last">Last successful copy on this device: %1$s</string>
+    <string name="offline_backup_never">No copy recorded</string>
+    <string name="offline_restore_help">To check or recover a backup: lock the database, choose Open database and select the copy. Enable read-only mode before unlocking. Check your entries before replacing the original. A keyfile or hardware key is still required if configured.</string>
+    <string name="offline_backup_create">Create backup</string>
+    <string name="offline_review_title">Password review</string>
+    <string name="offline_review_running">Checking locally…</string>
+    <string name="offline_review_summary">Passwords checked: %1$d. Entries to review: %2$d.</string>
+    <string name="offline_review_scope">Local check of reused passwords, passwords shorter than 12 characters or made of one repeated character. Excludes the recycle bin and templates. No breach check or guarantee of strength. Tap an entry to review it.</string>
+    <string name="offline_review_reused">Reused</string>
+    <string name="offline_review_short">Short or repetitive</string>
+    <string name="offline_review_error">The check could not be completed. Try again with the database unlocked.</string>
+    <string name="offline_review_untitled">Untitled entry</string>
+    <string name="offline_more_options">Notes and expiry</string>
+    <string name="offline_less_options">Hide notes and expiry</string>
+</resources>

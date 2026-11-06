@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="offline_backup_title">बैकअप और पुनर्स्थापना</string>
+    <string name="offline_backup_summary">उन्हीं मुख्य क्रेडेंशियल से एन्क्रिप्ट की गई प्रति सहेजें। इसे ऑफ़लाइन रखने के लिए डिवाइस का संग्रहण या USB चुनें।</string>
+    <string name="offline_backup_last">इस डिवाइस पर अंतिम सफल प्रति: %1$s</string>
+    <string name="offline_backup_never">किसी प्रति का रिकॉर्ड नहीं है</string>
+    <string name="offline_restore_help">बैकअप जाँचने या पुनर्स्थापित करने के लिए: डेटाबेस लॉक करें, डेटाबेस खोलें चुनें और प्रति चुनें। अनलॉक करने से पहले केवल पढ़ने का मोड चालू करें। मूल फ़ाइल बदलने से पहले प्रविष्टियाँ जाँचें। यदि सेट है, तो कुंजी फ़ाइल या हार्डवेयर कुंजी अभी भी चाहिए।</string>
+    <string name="offline_backup_create">बैकअप बनाएँ</string>
+    <string name="offline_review_title">पासवर्ड की जाँच</string>
+    <string name="offline_review_running">डिवाइस पर जाँच हो रही है…</string>
+    <string name="offline_review_summary">जाँचे गए पासवर्ड: %1$d। समीक्षा के लिए प्रविष्टियाँ: %2$d।</string>
+    <string name="offline_review_scope">दोबारा इस्तेमाल किए गए, 12 से कम वर्ण वाले या एक ही वर्ण दोहराने वाले पासवर्ड की स्थानीय जाँच। कूड़ेदान और टेम्प्लेट शामिल नहीं हैं। डेटा लीक की जाँच या मज़बूती की गारंटी नहीं दी जाती। समीक्षा के लिए प्रविष्टि पर टैप करें।</string>
+    <string name="offline_review_reused">दोबारा इस्तेमाल किया गया</string>
+    <string name="offline_review_short">छोटा या दोहराव वाला</string>
+    <string name="offline_review_error">जाँच पूरी नहीं हो सकी। डेटाबेस अनलॉक करके फिर कोशिश करें।</string>
+    <string name="offline_review_untitled">बिना शीर्षक की प्रविष्टि</string>
+    <string name="offline_more_options">नोट्स और समाप्ति</string>
+    <string name="offline_less_options">नोट्स और समाप्ति छिपाएँ</string>
+</resources>

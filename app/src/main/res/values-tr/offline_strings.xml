@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="offline_backup_title">Yedekleme ve geri yükleme</string>
+    <string name="offline_backup_summary">Aynı ana kimlik bilgileriyle şifrelenmiş bir kopya kaydedin. Çevrimdışı tutmak için cihaz depolamasını veya USB belleği seçin.</string>
+    <string name="offline_backup_last">Bu cihazdaki son başarılı kopya: %1$s</string>
+    <string name="offline_backup_never">Kayıtlı kopya yok</string>
+    <string name="offline_restore_help">Yedeği denetlemek veya geri yüklemek için: veritabanını kilitleyin, Veritabanı aç seçeneğini ve kopyayı seçin. Kilidi açmadan önce salt okunur modu etkinleştirin. Asıl dosyayı değiştirmeden önce kayıtları denetleyin. Yapılandırıldıysa anahtar dosyası veya donanım anahtarı hâlâ gereklidir.</string>
+    <string name="offline_backup_create">Yedek oluştur</string>
+    <string name="offline_review_title">Parola denetimi</string>
+    <string name="offline_review_running">Yerel olarak denetleniyor…</string>
+    <string name="offline_review_summary">Denetlenen parola: %1$d. İncelenecek kayıt: %2$d.</string>
+    <string name="offline_review_scope">Yeniden kullanılan, 12 karakterden kısa veya tek bir karakterin tekrarından oluşan parolaları yerel olarak denetler. Çöp kutusu ve şablonlar hariçtir. Sızıntıları denetlemez ve güç garantisi vermez. İncelemek için kayda dokunun.</string>
+    <string name="offline_review_reused">Yeniden kullanılmış</string>
+    <string name="offline_review_short">Kısa veya tekrarlı</string>
+    <string name="offline_review_error">Denetim tamamlanamadı. Veritabanı kilidini açıp yeniden deneyin.</string>
+    <string name="offline_review_untitled">Başlıksız kayıt</string>
+    <string name="offline_more_options">Notlar ve geçerlilik</string>
+    <string name="offline_less_options">Notları ve geçerliliği gizle</string>
+</resources>

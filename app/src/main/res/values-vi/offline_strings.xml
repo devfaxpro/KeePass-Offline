@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="offline_backup_title">Sao lưu và khôi phục</string>
+    <string name="offline_backup_summary">Lưu bản sao được mã hóa bằng cùng thông tin xác thực chính. Chọn bộ nhớ thiết bị hoặc USB để giữ bản sao ngoại tuyến.</string>
+    <string name="offline_backup_last">Lần sao chép thành công gần nhất trên thiết bị này: %1$s</string>
+    <string name="offline_backup_never">Chưa ghi nhận bản sao nào</string>
+    <string name="offline_restore_help">Để kiểm tra hoặc khôi phục bản sao lưu: khóa cơ sở dữ liệu, chọn Mở cơ sở dữ liệu rồi chọn bản sao. Bật chế độ chỉ đọc trước khi mở khóa. Kiểm tra các mục trước khi thay thế bản gốc. Vẫn cần tệp khóa hoặc khóa phần cứng nếu đã thiết lập.</string>
+    <string name="offline_backup_create">Tạo bản sao lưu</string>
+    <string name="offline_review_title">Kiểm tra mật khẩu</string>
+    <string name="offline_review_running">Đang kiểm tra trên thiết bị…</string>
+    <string name="offline_review_summary">Mật khẩu đã kiểm tra: %1$d. Mục cần xem lại: %2$d.</string>
+    <string name="offline_review_scope">Kiểm tra cục bộ mật khẩu dùng lại, ngắn hơn 12 ký tự hoặc chỉ gồm một ký tự lặp lại. Không bao gồm thùng rác và mẫu. Không kiểm tra rò rỉ hay bảo đảm độ mạnh. Nhấn vào mục để xem lại.</string>
+    <string name="offline_review_reused">Dùng lại</string>
+    <string name="offline_review_short">Ngắn hoặc lặp lại</string>
+    <string name="offline_review_error">Không thể hoàn tất kiểm tra. Hãy mở khóa cơ sở dữ liệu và thử lại.</string>
+    <string name="offline_review_untitled">Mục chưa có tiêu đề</string>
+    <string name="offline_more_options">Ghi chú và thời hạn</string>
+    <string name="offline_less_options">Ẩn ghi chú và thời hạn</string>
+</resources>

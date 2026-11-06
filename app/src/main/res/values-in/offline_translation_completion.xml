@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="branding_tagline">Pengelola kata sandi offline. Kompatibel dengan KeePass.</string>
+    <string name="branding_origin">Fork independen berbasis KeePassDX (Kunzisoft). Kredit asli dan lisensi GPLv3 dipertahankan.</string>
+    <string name="modern_palette_title">Tema</string>
+    <string name="modern_palette_summary">Pilih tampilan lengkap untuk brankas Anda</string>
+    <string name="modern_blue">Samudra</string>
+    <string name="modern_green">Hutan</string>
+    <string name="modern_purple">Aurora</string>
+    <string name="modern_red">Karang</string>
+    <string name="modern_orange">Gumuk pasir</string>
+    <string name="modern_teal">Giok</string>
+    <string name="modern_pink">Sakura</string>
+    <string name="modern_slate">Grafit</string>
+    <string name="modern_dynamic">Warna wallpaper Android</string>
+    <string name="modern_legacy">Tema asli</string>
+    <string name="modern_language">Bahasa</string>
+    <string name="modern_preview">Pratinjau</string>
+    <string name="modern_preview_title">Kata sandi Anda. Gaya Anda.</string>
+    <string name="modern_preview_summary">Latar khas dan permukaan serasi, dalam mode terang atau gelap.</string>
+    <string name="modern_search">Cari dalam brankas</string>
+    <string name="invalid_db_hmac">Verifikasi tanda tangan basis data gagal. Berkas mungkin rusak atau diubah oleh aplikasi lain.</string>
+    <string name="save_success">Berhasil disimpan</string>
+    <string name="error_load_database_KDF_iteration">Jumlah iterasi KDF terlalu tinggi.</string>
+    <string name="error_load_database_KDF_parallelism">Tingkat paralelisme KDF terlalu tinggi.</string>
+    <string name="parallelism_set_safe">Atur jumlah prosesor</string>
+</resources>

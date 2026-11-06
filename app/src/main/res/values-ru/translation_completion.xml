@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Localization completion. SPDX-License-Identifier: GPL-3.0-or-later -->
+<resources>
+    <string name="invalid_db_hmac">Не удалось проверить подпись базы данных. Возможно, файл повреждён или изменён другим приложением.</string>
+    <string name="save_success">Сохранение завершено</string>
+    <string-array name="timeout_options">
+        <item>5 секунд</item>
+        <item>10 секунд</item>
+        <item>20 секунд</item>
+        <item>30 секунд</item>
+        <item>1 минута</item>
+        <item>5 минут</item>
+        <item>15 минут</item>
+        <item>30 минут</item>
+        <item>Никогда</item>
+    </string-array>
+    <string-array name="large_timeout_options">
+        <item>5 минут</item>
+        <item>15 минут</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>5 часов</item>
+        <item>10 часов</item>
+        <item>24 часа</item>
+        <item>48 часов</item>
+        <item>1 неделя</item>
+        <item>1 месяц</item>
+        <item>Никогда</item>
+    </string-array>
+</resources>

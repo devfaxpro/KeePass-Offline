@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="offline_backup_title">バックアップと復元</string>
+    <string name="offline_backup_summary">同じマスター認証情報で暗号化したコピーを保存します。オフラインで保管するには、端末内または USB ストレージを選んでください。</string>
+    <string name="offline_backup_last">この端末で最後にコピーできた日時：%1$s</string>
+    <string name="offline_backup_never">コピーの記録はありません</string>
+    <string name="offline_restore_help">バックアップの確認・復元：データベースをロックし、「データベースを開く」からコピーを選びます。解除する前に読み取り専用を有効にしてください。内容を確認してから元のファイルを置き換えてください。設定済みのキーファイルやハードウェアキーは引き続き必要です。</string>
+    <string name="offline_backup_create">バックアップを作成</string>
+    <string name="offline_review_title">パスワードの確認</string>
+    <string name="offline_review_running">端末内で確認中…</string>
+    <string name="offline_review_summary">確認したパスワード：%1$d 件。見直す項目：%2$d 件。</string>
+    <string name="offline_review_scope">使い回し、12 文字未満、同じ文字だけの繰り返しを端末内で確認します。ごみ箱とテンプレートは対象外です。漏えいの確認や強度の保証は行いません。項目をタップして見直せます。</string>
+    <string name="offline_review_reused">使い回し</string>
+    <string name="offline_review_short">短い、または繰り返し</string>
+    <string name="offline_review_error">確認を完了できませんでした。データベースのロックを解除して再試行してください。</string>
+    <string name="offline_review_untitled">無題の項目</string>
+    <string name="offline_more_options">メモと有効期限</string>
+    <string name="offline_less_options">メモと有効期限を隠す</string>
+</resources>

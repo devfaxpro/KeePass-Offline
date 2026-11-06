@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright 2019 Jeremy Jamet / Kunzisoft.
+     
+ This file is part of KeePassDX.
+
+  KeePassDX is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  KeePassDX is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with KeePassDX.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:filterTouchesWhenObscured="true"
+    android:importantForAutofill="noExcludeDescendants"
+    tools:targetApi="o">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/atelierWallpaper">
+
+        <com.kunzisoft.keepass.view.ToolbarSpecial
+            android:id="@+id/special_mode_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/activity_file_selection_coordinator_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            app:layout_constraintTop_toBottomOf="@+id/special_mode_view"
+            app:layout_constraintBottom_toTopOf="@+id/file_selection_buttons_container">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/app_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.appbar.CollapsingToolbarLayout
+                    android:id="@+id/toolbar_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+
+                    <LinearLayout
+                        android:id="@+id/file_selection_title_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="?attr/actionBarSize"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="20dp"
+                        android:paddingBottom="20dp"
+                        android:orientation="vertical"
+                        app:layout_collapseMode="parallax">
+                        <TextView
+                            android:id="@+id/file_selection_title_part_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:textSize="34sp"
+                            android:textColor="?attr/colorOnSurface"
+                            android:text="@string/app_name" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:textSize="15sp"
+                            android:textColor="?attr/colorOnSurfaceVariant"
+                            android:text="@string/branding_tagline" />
+                        <TextView
+                            android:id="@+id/file_selection_title_part_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"
+                            android:text="@string/app_name_part3" />
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            app:cardCornerRadius="26dp"
+                            app:cardElevation="0dp"
+                            app:strokeWidth="1dp"
+                            app:strokeColor="?attr/atelierSeparator"
+                            app:cardBackgroundColor="?attr/colorPrimaryContainer">
+                            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <com.kunzisoft.keepass.view.AtelierArtworkView
+                                    android:layout_width="match_parent" android:layout_height="match_parent" />
+                                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                                    android:padding="20dp" android:orientation="vertical">
+                                    <androidx.appcompat.widget.AppCompatImageView
+                                        android:layout_width="56dp" android:layout_height="56dp"
+                                        android:importantForAccessibility="no"
+                                        android:src="@drawable/per_keepass_foreground" />
+                                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                                        android:layout_marginTop="12dp" android:fontFamily="sans-serif-medium"
+                                        android:textSize="22sp" android:textColor="?attr/colorOnPrimaryContainer"
+                                        android:text="@string/modern_preview_title" />
+                                </LinearLayout>
+                            </FrameLayout>
+                        </com.google.android.material.card.MaterialCardView>
+                    </LinearLayout>
+
+                    <com.google.android.material.appbar.MaterialToolbar
+                        android:id="@+id/toolbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:navigationIcon="@drawable/ic_info_white_24dp"
+                        app:navigationContentDescription="@string/about"
+                        app:layout_collapseMode="pin"/>
+
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/file_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbarStyle="insideOverlay"
+                android:paddingBottom="8dp"
+                android:clipToPadding="false"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/file_selection_buttons_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toTopOf="@+id/screenshot_mode_banner">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/open_database_button"
+                style="@style/KeepassDXStyle.Button.Primary"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:focusable="true"
+                android:text="@string/select_database_file"
+                app:icon="@drawable/ic_folder_white_24dp"
+                app:iconGravity="textStart"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/create_database_button"
+                style="@style/KeepassDXStyle.Button.Secondary"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_marginTop="4dp"
+                android:focusable="true"
+                android:text="@string/create_keepass_file"
+                app:icon="@drawable/ic_database_plus_white_24dp"
+                app:iconGravity="textStart"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/open_database_button"
+                app:layout_constraintBottom_toBottomOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <include layout="@layout/view_screenshot_mode_banner" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string-array name="timeout_options">
+        <item>5 sekund</item>
+        <item>10 sekund</item>
+        <item>20 sekund</item>
+        <item>30 sekund</item>
+        <item>1 minuta</item>
+        <item>5 minut</item>
+        <item>15 minut</item>
+        <item>30 minut</item>
+        <item>Nigdy</item>
+    </string-array>
+    <string-array name="large_timeout_options">
+        <item>5 minut</item>
+        <item>15 minut</item>
+        <item>30 minut</item>
+        <item>1 godzina</item>
+        <item>2 godziny</item>
+        <item>5 godzin</item>
+        <item>10 godzin</item>
+        <item>24 godziny</item>
+        <item>48 godzin</item>
+        <item>1 tydzień</item>
+        <item>1 miesiąc</item>
+        <item>Nigdy</item>
+    </string-array>
+    <string-array name="list_size_options">
+        <item>Mały</item>
+        <item>Średni</item>
+        <item>Duży</item>
+    </string-array>
+</resources>

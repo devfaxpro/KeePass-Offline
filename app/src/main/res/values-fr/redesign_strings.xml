@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="modern_palette_title">Thèmes</string>
+    <string name="modern_palette_summary">Choisissez un style complet pour votre coffre-fort</string>
+    <string name="modern_blue">Océan</string>
+    <string name="modern_green">Forêt</string>
+    <string name="modern_purple">Aurore</string>
+    <string name="modern_red">Corail</string>
+    <string name="modern_orange">Dune</string>
+    <string name="modern_teal">Jade</string>
+    <string name="modern_pink">Sakura</string>
+    <string name="modern_slate">Graphite</string>
+    <string name="modern_dynamic">Couleurs du fond d’écran Android</string>
+    <string name="modern_legacy">Thèmes d’origine</string>
+    <string name="modern_language">Langue</string>
+    <string name="modern_preview">Aperçu</string>
+    <string name="modern_preview_title">Vos mots de passe. Votre style.</string>
+    <string name="modern_preview_summary">Des fonds distinctifs et des surfaces assorties, en mode clair ou sombre.</string>
+    <string name="modern_search">Rechercher dans le coffre</string>
+</resources>

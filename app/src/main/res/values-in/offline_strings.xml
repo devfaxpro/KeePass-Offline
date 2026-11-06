@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="offline_backup_title">Cadangan dan pemulihan</string>
+    <string name="offline_backup_summary">Simpan salinan terenkripsi dengan kredensial utama yang sama. Pilih penyimpanan perangkat atau USB agar tetap offline.</string>
+    <string name="offline_backup_last">Salinan terakhir yang berhasil di perangkat ini: %1$s</string>
+    <string name="offline_backup_never">Belum ada salinan tercatat</string>
+    <string name="offline_restore_help">Untuk memeriksa atau memulihkan cadangan: kunci basis data, pilih Buka basis data, lalu pilih salinannya. Aktifkan mode hanya baca sebelum membuka kunci. Periksa entri sebelum mengganti berkas asli. Berkas kunci atau kunci perangkat keras tetap diperlukan jika dikonfigurasi.</string>
+    <string name="offline_backup_create">Buat cadangan</string>
+    <string name="offline_review_title">Periksa kata sandi</string>
+    <string name="offline_review_running">Memeriksa secara lokal…</string>
+    <string name="offline_review_summary">Kata sandi diperiksa: %1$d. Entri untuk ditinjau: %2$d.</string>
+    <string name="offline_review_scope">Pemeriksaan lokal untuk kata sandi yang digunakan ulang, kurang dari 12 karakter, atau hanya berisi satu karakter berulang. Tidak mencakup sampah dan templat. Tidak memeriksa kebocoran atau menjamin kekuatan. Ketuk entri untuk meninjaunya.</string>
+    <string name="offline_review_reused">Digunakan ulang</string>
+    <string name="offline_review_short">Pendek atau berulang</string>
+    <string name="offline_review_error">Pemeriksaan tidak dapat diselesaikan. Coba lagi dengan basis data terbuka.</string>
+    <string name="offline_review_untitled">Entri tanpa judul</string>
+    <string name="offline_more_options">Catatan dan kedaluwarsa</string>
+    <string name="offline_less_options">Sembunyikan catatan dan kedaluwarsa</string>
+</resources>

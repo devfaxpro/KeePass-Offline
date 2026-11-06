@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Local Android redesign. SPDX-License-Identifier: GPL-3.0-or-later -->
+<resources>
+    <style name="Soft.AppBar" parent="Widget.Material3.AppBarLayout">
+        <item name="android:background">?android:attr/colorBackground</item>
+        <item name="elevation">0dp</item>
+    </style>
+    <style name="Soft.Shape.Fab" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+    <style name="Soft.Search" parent="Widget.Material3.Button.TonalButton">
+        <item name="backgroundTint">?attr/colorSurface</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+        <item name="iconTint">?attr/colorPrimary</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:insetTop">4dp</item>
+        <item name="android:insetBottom">4dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+    <style name="Soft.IconButton" parent="KeepassDXStyle.ImageButton.OnSurface">
+        <item name="android:background">@drawable/soft_icon_button</item>
+        <item name="backgroundTint">?attr/colorPrimaryContainer</item>
+        <item name="tint">?attr/colorOnPrimaryContainer</item>
+    </style>
+</resources>

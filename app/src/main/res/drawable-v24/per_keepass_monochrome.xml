@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Monochrome companion for Android themed icons. GPL-3.0-or-later. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="4" android:strokeLineJoin="round"
+        android:pathData="M54,24 C46,29 37,33 30,35 L30,50 C30,67 39,78 54,86 C69,78 78,67 78,50 L78,35 C71,33 62,29 54,24 Z" />
+    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="4" android:strokeLineCap="round"
+        android:pathData="M44,51 L44,44 A10,10 0,0 1,64,44 L64,51" />
+    <path android:fillColor="#FFFFFFFF" android:fillType="evenOdd"
+        android:pathData="M42,50 L66,50 Q69,50 69,54 L69,68 Q69,72 65,72 L43,72 Q39,72 39,68 L39,54 Q39,50 42,50 Z M46,58 A3,3 0,1 0,46,64 A3,3 0,1 0,46,58 Z M54,58 A3,3 0,1 0,54,64 A3,3 0,1 0,54,58 Z M62,58 A3,3 0,1 0,62,64 A3,3 0,1 0,62,58 Z" />
+</vector>

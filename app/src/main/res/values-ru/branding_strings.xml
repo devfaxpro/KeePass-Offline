@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- KeePass Offline identity. SPDX-License-Identifier: GPL-3.0-or-later -->
+<resources>
+    <string name="branding_tagline">Менеджер паролей без интернета. Совместим с KeePass.</string>
+    <string name="branding_origin">Независимый проект на основе KeePassDX (Kunzisoft). Сведения об авторах оригинала и лицензия GPLv3 сохранены.</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="modern_palette_title">Temas</string>
+    <string name="modern_palette_summary">Escolha um visual completo para seu cofre</string>
+    <string name="modern_blue">Oceano</string>
+    <string name="modern_green">Floresta</string>
+    <string name="modern_purple">Aurora</string>
+    <string name="modern_red">Coral</string>
+    <string name="modern_orange">Duna</string>
+    <string name="modern_teal">Jade</string>
+    <string name="modern_pink">Sakura</string>
+    <string name="modern_slate">Grafite</string>
+    <string name="modern_dynamic">Cores do papel de parede do Android</string>
+    <string name="modern_legacy">Temas originais</string>
+    <string name="modern_language">Idioma</string>
+    <string name="modern_preview">Prévia</string>
+    <string name="modern_preview_title">Suas senhas. Seu estilo.</string>
+    <string name="modern_preview_summary">Fundos marcantes e superfícies combinando, no modo claro ou escuro.</string>
+    <string name="modern_search">Pesquisar no cofre</string>
+</resources>

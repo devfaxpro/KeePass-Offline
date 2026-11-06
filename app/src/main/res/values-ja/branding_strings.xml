@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- KeePass Offline identity. SPDX-License-Identifier: GPL-3.0-or-later -->
+<resources>
+    <string name="branding_tagline">オフラインのパスワード管理アプリ。KeePass に対応。</string>
+    <string name="branding_origin">KeePassDX（Kunzisoft）を基にした独立プロジェクトです。元のクレジットと GPLv3 ライセンスを保持しています。</string>
+</resources>

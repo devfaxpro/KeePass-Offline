@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Localization completion. SPDX-License-Identifier: GPL-3.0-or-later -->
+<resources>
+    <string name="invalid_db_hmac">Die Signatur der Datenbank konnte nicht überprüft werden. Die Datei ist möglicherweise beschädigt oder wurde von einer anderen App verändert.</string>
+    <string name="save_success">Speichern abgeschlossen</string>
+    <string-array name="timeout_options">
+        <item>5 Sekunden</item>
+        <item>10 Sekunden</item>
+        <item>20 Sekunden</item>
+        <item>30 Sekunden</item>
+        <item>1 Minute</item>
+        <item>5 Minuten</item>
+        <item>15 Minuten</item>
+        <item>30 Minuten</item>
+        <item>Nie</item>
+    </string-array>
+    <string-array name="large_timeout_options">
+        <item>5 Minuten</item>
+        <item>15 Minuten</item>
+        <item>30 Minuten</item>
+        <item>1 Stunde</item>
+        <item>2 Stunden</item>
+        <item>5 Stunden</item>
+        <item>10 Stunden</item>
+        <item>24 Stunden</item>
+        <item>48 Stunden</item>
+        <item>1 Woche</item>
+        <item>1 Monat</item>
+        <item>Nie</item>
+    </string-array>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="offline_backup_title">Резервна копія та відновлення</string>
+    <string name="offline_backup_summary">Збережіть зашифровану копію з тими самими основними обліковими даними. Виберіть пам’ять пристрою або USB-накопичувач, щоб зберігати її офлайн.</string>
+    <string name="offline_backup_last">Остання успішна копія на цьому пристрої: %1$s</string>
+    <string name="offline_backup_never">Немає записів про копії</string>
+    <string name="offline_restore_help">Щоб перевірити або відновити копію: заблокуйте базу, виберіть «Відкрити базу даних» і вкажіть копію. Перед розблокуванням увімкніть режим лише для читання. Перевірте записи перед заміною оригіналу. Налаштований файл ключа або апаратний ключ усе ще потрібний.</string>
+    <string name="offline_backup_create">Створити копію</string>
+    <string name="offline_review_title">Перевірка паролів</string>
+    <string name="offline_review_running">Локальна перевірка…</string>
+    <string name="offline_review_summary">Перевірено паролів: %1$d. Записів для перегляду: %2$d.</string>
+    <string name="offline_review_scope">Локальна перевірка повторно використаних паролів, паролів коротших за 12 символів або з одного повторюваного символу. Не охоплює кошик і шаблони. Не перевіряє витоки й не гарантує стійкість. Торкніться запису для перегляду.</string>
+    <string name="offline_review_reused">Повторно використаний</string>
+    <string name="offline_review_short">Короткий або повторюваний</string>
+    <string name="offline_review_error">Не вдалося завершити перевірку. Спробуйте знову з розблокованою базою.</string>
+    <string name="offline_review_untitled">Запис без назви</string>
+    <string name="offline_more_options">Нотатки та термін дії</string>
+    <string name="offline_less_options">Приховати нотатки та термін дії</string>
+</resources>

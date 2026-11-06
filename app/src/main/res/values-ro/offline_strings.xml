@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="offline_backup_title">Copie de rezervă și restaurare</string>
+    <string name="offline_backup_summary">Salvează o copie criptată cu aceleași date principale de acces. Alege stocarea dispozitivului sau un stick USB pentru a o păstra offline.</string>
+    <string name="offline_backup_last">Ultima copie reușită pe acest dispozitiv: %1$s</string>
+    <string name="offline_backup_never">Nicio copie înregistrată</string>
+    <string name="offline_restore_help">Pentru a verifica sau restaura o copie: blochează baza de date, alege Deschide baza de date și selectează copia. Activează modul doar citire înainte de deblocare. Verifică intrările înainte de a înlocui originalul. Fișierul-cheie sau cheia hardware rămâne necesară dacă este configurată.</string>
+    <string name="offline_backup_create">Creează o copie</string>
+    <string name="offline_review_title">Verifică parolele</string>
+    <string name="offline_review_running">Verificare locală…</string>
+    <string name="offline_review_summary">Parole verificate: %1$d. Intrări de revizuit: %2$d.</string>
+    <string name="offline_review_scope">Verifică local parolele reutilizate, mai scurte de 12 caractere sau formate dintr-un singur caracter repetat. Exclude coșul și șabloanele. Nu verifică scurgerile de date și nu garantează rezistența. Atinge o intrare pentru a o revizui.</string>
+    <string name="offline_review_reused">Reutilizată</string>
+    <string name="offline_review_short">Scurtă sau repetitivă</string>
+    <string name="offline_review_error">Verificarea nu a putut fi încheiată. Încearcă din nou cu baza de date deblocată.</string>
+    <string name="offline_review_untitled">Intrare fără titlu</string>
+    <string name="offline_more_options">Note și expirare</string>
+    <string name="offline_less_options">Ascunde notele și expirarea</string>
+</resources>

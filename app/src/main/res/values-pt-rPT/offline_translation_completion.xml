@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="branding_tagline">Gestor de palavras-passe offline. Compatível com KeePass.</string>
+    <string name="branding_origin">Derivação independente baseada no KeePassDX (Kunzisoft). Créditos originais e licença GPLv3 preservados.</string>
+    <string name="modern_palette_title">Temas</string>
+    <string name="modern_palette_summary">Escolha um visual completo para o seu cofre</string>
+    <string name="modern_blue">Oceano</string>
+    <string name="modern_green">Floresta</string>
+    <string name="modern_purple">Aurora</string>
+    <string name="modern_red">Coral</string>
+    <string name="modern_orange">Duna</string>
+    <string name="modern_teal">Jade</string>
+    <string name="modern_pink">Sakura</string>
+    <string name="modern_slate">Grafite</string>
+    <string name="modern_dynamic">Cores do fundo do Android</string>
+    <string name="modern_legacy">Temas originais</string>
+    <string name="modern_language">Idioma</string>
+    <string name="modern_preview">Pré-visualização</string>
+    <string name="modern_preview_title">As suas palavras-passe. O seu estilo.</string>
+    <string name="modern_preview_summary">Fundos distintos e elementos a condizer, em modo claro ou escuro.</string>
+    <string name="modern_search">Pesquisar no cofre</string>
+    <string name="invalid_db_hmac">A verificação da assinatura da base de dados falhou. O ficheiro pode estar danificado ou ter sido alterado por outra aplicação.</string>
+    <string name="save_success">Guardado com sucesso</string>
+    <string name="error_load_database_KDF_iteration">O número de iterações da KDF é demasiado elevado.</string>
+    <string name="error_load_database_KDF_parallelism">O paralelismo da KDF é demasiado elevado.</string>
+    <string name="error_memory_too_large">O uso de memória é demasiado elevado. A definir para %1$s.</string>
+    <string name="error_parallelism_too_large">O paralelismo é demasiado elevado. A definir para %1$s.</string>
+    <string name="error_missing_parent">Esta ação requer um grupo superior.</string>
+    <string name="parallelism_set_safe">Definir número de processadores</string>
+    <string name="temporary_merge_success">União temporária dos dados concluída</string>
+    <string name="reload_success">Recarregamento concluído</string>
+    <string name="autofill_suggestions_title">Sugestões de preenchimento automático</string>
+    <string name="autofill_suggestions_summary">Usar o reconhecimento de formulários para sugerir entradas</string>
+    <string name="passkey_pseudo_random_function">Função pseudoaleatória da chave de acesso</string>
+</resources>

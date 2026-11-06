@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="branding_tagline">Manager de parole offline. Compatibil cu KeePass.</string>
+    <string name="branding_origin">Derivat independent bazat pe KeePassDX (Kunzisoft). Sunt păstrate meritele originale și licența GPLv3.</string>
+    <string name="modern_palette_title">Teme</string>
+    <string name="modern_palette_summary">Alege un aspect complet pentru seiful tău</string>
+    <string name="modern_blue">Ocean</string>
+    <string name="modern_green">Pădure</string>
+    <string name="modern_purple">Auroră</string>
+    <string name="modern_red">Coral</string>
+    <string name="modern_orange">Dună</string>
+    <string name="modern_teal">Jad</string>
+    <string name="modern_pink">Sakura</string>
+    <string name="modern_slate">Grafit</string>
+    <string name="modern_dynamic">Culorile fundalului Android</string>
+    <string name="modern_legacy">Teme originale</string>
+    <string name="modern_language">Limbă</string>
+    <string name="modern_preview">Previzualizare</string>
+    <string name="modern_preview_title">Parolele tale. Stilul tău.</string>
+    <string name="modern_preview_summary">Fundaluri distinctive și elemente asortate, în modul luminos sau întunecat.</string>
+    <string name="modern_search">Caută în seif</string>
+    <string name="invalid_db_hmac">Verificarea semnăturii bazei de date a eșuat. Fișierul poate fi deteriorat sau modificat de o altă aplicație.</string>
+    <string name="save_success">Salvare încheiată cu succes</string>
+</resources>

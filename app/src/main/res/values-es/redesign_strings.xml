@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="modern_palette_title">Temas</string>
+    <string name="modern_palette_summary">Elige un estilo completo para tu bóveda</string>
+    <string name="modern_blue">Océano</string>
+    <string name="modern_green">Bosque</string>
+    <string name="modern_purple">Aurora</string>
+    <string name="modern_red">Coral</string>
+    <string name="modern_orange">Duna</string>
+    <string name="modern_teal">Jade</string>
+    <string name="modern_pink">Sakura</string>
+    <string name="modern_slate">Grafito</string>
+    <string name="modern_dynamic">Colores del fondo de Android</string>
+    <string name="modern_legacy">Temas originales</string>
+    <string name="modern_language">Idioma</string>
+    <string name="modern_preview">Vista previa</string>
+    <string name="modern_preview_title">Tus contraseñas. Tu estilo.</string>
+    <string name="modern_preview_summary">Fondos distintivos y superficies a juego, en modo claro u oscuro.</string>
+    <string name="modern_search">Buscar en la base de datos</string>
+</resources>

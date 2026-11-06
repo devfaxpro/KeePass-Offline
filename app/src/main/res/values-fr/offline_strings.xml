@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="offline_backup_title">Sauvegarde et restauration</string>
+    <string name="offline_backup_summary">Enregistrez une copie chiffrée avec les mêmes identifiants maîtres. Choisissez le stockage de l’appareil ou une clé USB pour la conserver hors ligne.</string>
+    <string name="offline_backup_last">Dernière copie réussie sur cet appareil : %1$s</string>
+    <string name="offline_backup_never">Aucune copie enregistrée</string>
+    <string name="offline_restore_help">Pour vérifier ou restaurer une sauvegarde : verrouillez la base, choisissez Ouvrir une base et sélectionnez la copie. Activez la lecture seule avant de la déverrouiller. Vérifiez les entrées avant de remplacer l’original. Le fichier clé ou la clé matérielle reste nécessaire si configuré.</string>
+    <string name="offline_backup_create">Créer une sauvegarde</string>
+    <string name="offline_review_title">Vérifier les mots de passe</string>
+    <string name="offline_review_running">Vérification locale…</string>
+    <string name="offline_review_summary">Mots de passe vérifiés : %1$d. Entrées à revoir : %2$d.</string>
+    <string name="offline_review_scope">Vérifie localement les mots de passe réutilisés, de moins de 12 caractères ou constitués d’un seul caractère répété. Exclut la corbeille et les modèles. Ne recherche pas les fuites et ne garantit pas la robustesse. Touchez une entrée pour la revoir.</string>
+    <string name="offline_review_reused">Réutilisé</string>
+    <string name="offline_review_short">Court ou répétitif</string>
+    <string name="offline_review_error">Impossible de terminer la vérification. Réessayez avec la base déverrouillée.</string>
+    <string name="offline_review_untitled">Entrée sans titre</string>
+    <string name="offline_more_options">Notes et expiration</string>
+    <string name="offline_less_options">Masquer les notes et l’expiration</string>
+</resources>

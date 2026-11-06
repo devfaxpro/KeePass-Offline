@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="branding_tagline">Menedżer haseł offline. Zgodny z KeePass.</string>
+    <string name="branding_origin">Niezależny fork oparty na KeePassDX (Kunzisoft). Zachowano informacje o autorach i licencję GPLv3.</string>
+    <string name="modern_palette_title">Motywy</string>
+    <string name="modern_palette_summary">Wybierz spójny wygląd swojego sejfu</string>
+    <string name="modern_blue">Ocean</string>
+    <string name="modern_green">Las</string>
+    <string name="modern_purple">Zorza</string>
+    <string name="modern_red">Koral</string>
+    <string name="modern_orange">Wydma</string>
+    <string name="modern_teal">Jadeit</string>
+    <string name="modern_pink">Sakura</string>
+    <string name="modern_slate">Grafit</string>
+    <string name="modern_dynamic">Kolory tapety Androida</string>
+    <string name="modern_legacy">Oryginalne motywy</string>
+    <string name="modern_language">Język</string>
+    <string name="modern_preview">Podgląd</string>
+    <string name="modern_preview_title">Twoje hasła. Twój styl.</string>
+    <string name="modern_preview_summary">Charakterystyczne tła i dopasowane elementy w trybie jasnym lub ciemnym.</string>
+    <string name="modern_search">Szukaj w sejfie</string>
+    <string name="invalid_db_hmac">Weryfikacja podpisu bazy danych nie powiodła się. Plik może być uszkodzony lub zmieniony przez inną aplikację.</string>
+    <string name="save_success">Zapis zakończony pomyślnie</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="offline_backup_title">备份与恢复</string>
+    <string name="offline_backup_summary">使用相同的主凭据保存加密副本。选择设备存储或 USB 存储设备，以保持离线。</string>
+    <string name="offline_backup_last">此设备上次成功创建副本：%1$s</string>
+    <string name="offline_backup_never">尚无副本记录</string>
+    <string name="offline_restore_help">验证或恢复备份：锁定数据库，选择“打开数据库”，然后选择副本。解锁前启用只读模式。确认条目无误后再替换原文件。如果设置了密钥文件或硬件密钥，仍需使用。</string>
+    <string name="offline_backup_create">创建备份</string>
+    <string name="offline_review_title">密码检查</string>
+    <string name="offline_review_running">正在本地检查…</string>
+    <string name="offline_review_summary">已检查密码：%1$d。待检查条目：%2$d。</string>
+    <string name="offline_review_scope">在本地检查重复使用、少于 12 个字符或仅由同一字符重复组成的密码。不包括回收站和模板。不检查数据泄露，也不保证密码强度。点按条目进行查看。</string>
+    <string name="offline_review_reused">重复使用</string>
+    <string name="offline_review_short">过短或重复字符</string>
+    <string name="offline_review_error">无法完成检查。请在数据库解锁后重试。</string>
+    <string name="offline_review_untitled">无标题条目</string>
+    <string name="offline_more_options">备注与到期时间</string>
+    <string name="offline_less_options">隐藏备注与到期时间</string>
+</resources>

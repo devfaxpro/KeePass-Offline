@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="offline_backup_title">Back-up en herstel</string>
+    <string name="offline_backup_summary">Sla een versleutelde kopie op met dezelfde hoofdgegevens. Kies de apparaatopslag of een USB-stick om de kopie offline te bewaren.</string>
+    <string name="offline_backup_last">Laatste geslaagde kopie op dit apparaat: %1$s</string>
+    <string name="offline_backup_never">Geen kopie geregistreerd</string>
+    <string name="offline_restore_help">Een back-up controleren of herstellen: vergrendel de database, kies Database openen en selecteer de kopie. Schakel alleen-lezen in voordat je ontgrendelt. Controleer de items voordat je het origineel vervangt. Een ingesteld sleutelbestand of een ingestelde hardwaresleutel blijft nodig.</string>
+    <string name="offline_backup_create">Back-up maken</string>
+    <string name="offline_review_title">Wachtwoorden controleren</string>
+    <string name="offline_review_running">Lokaal controleren…</string>
+    <string name="offline_review_summary">Gecontroleerde wachtwoorden: %1$d. Te bekijken items: %2$d.</string>
+    <string name="offline_review_scope">Controleert lokaal op hergebruikte wachtwoorden, minder dan 12 tekens of één herhaald teken. Prullenbak en sjablonen zijn uitgesloten. Geen controle op datalekken of garantie van sterkte. Tik op een item om het te bekijken.</string>
+    <string name="offline_review_reused">Hergebruikt</string>
+    <string name="offline_review_short">Kort of repetitief</string>
+    <string name="offline_review_error">De controle kon niet worden voltooid. Probeer het opnieuw met een ontgrendelde database.</string>
+    <string name="offline_review_untitled">Item zonder titel</string>
+    <string name="offline_more_options">Notities en vervaldatum</string>
+    <string name="offline_less_options">Notities en vervaldatum verbergen</string>
+</resources>

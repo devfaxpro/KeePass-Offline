@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="branding_tagline">Offline wachtwoordbeheerder. Compatibel met KeePass.</string>
+    <string name="branding_origin">Onafhankelijke fork op basis van KeePassDX (Kunzisoft). Oorspronkelijke naamsvermeldingen en GPLv3-licentie behouden.</string>
+    <string name="modern_palette_title">Thema’s</string>
+    <string name="modern_palette_summary">Kies een complete uitstraling voor je kluis</string>
+    <string name="modern_blue">Oceaan</string>
+    <string name="modern_green">Bos</string>
+    <string name="modern_purple">Poollicht</string>
+    <string name="modern_red">Koraal</string>
+    <string name="modern_orange">Duin</string>
+    <string name="modern_teal">Jade</string>
+    <string name="modern_pink">Sakura</string>
+    <string name="modern_slate">Grafiet</string>
+    <string name="modern_dynamic">Kleuren van Android-achtergrond</string>
+    <string name="modern_legacy">Oorspronkelijke thema’s</string>
+    <string name="modern_language">Taal</string>
+    <string name="modern_preview">Voorbeeld</string>
+    <string name="modern_preview_title">Jouw wachtwoorden. Jouw stijl.</string>
+    <string name="modern_preview_summary">Kenmerkende achtergronden en bijpassende vlakken, in lichte of donkere modus.</string>
+    <string name="modern_search">Zoek in je kluis</string>
+    <string name="invalid_db_hmac">De handtekening van de database kon niet worden geverifieerd. Het bestand is mogelijk beschadigd of gewijzigd door een andere app.</string>
+    <string name="save_success">Opslaan voltooid</string>
+</resources>

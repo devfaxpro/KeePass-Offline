@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- KeePass Offline identity. SPDX-License-Identifier: GPL-3.0-or-later -->
+<resources>
+    <string name="branding_tagline">离线密码管理器，兼容 KeePass。</string>
+    <string name="branding_origin">基于 KeePassDX（Kunzisoft）的独立项目，保留原作者署名和 GPLv3 许可证。</string>
+</resources>

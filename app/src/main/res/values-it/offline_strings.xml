@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="offline_backup_title">Backup e ripristino</string>
+    <string name="offline_backup_summary">Salva una copia cifrata con le stesse credenziali principali. Scegli la memoria del dispositivo o una chiavetta USB per mantenerla offline.</string>
+    <string name="offline_backup_last">Ultima copia riuscita su questo dispositivo: %1$s</string>
+    <string name="offline_backup_never">Nessuna copia registrata</string>
+    <string name="offline_restore_help">Per verificare o ripristinare un backup: blocca il database, scegli Apri database e seleziona la copia. Attiva la sola lettura prima di sbloccarla. Controlla le voci prima di sostituire l’originale. Se configurati, servono ancora il file chiave o la chiave hardware.</string>
+    <string name="offline_backup_create">Crea backup</string>
+    <string name="offline_review_title">Controllo password</string>
+    <string name="offline_review_running">Controllo locale in corso…</string>
+    <string name="offline_review_summary">Password controllate: %1$d. Voci da rivedere: %2$d.</string>
+    <string name="offline_review_scope">Controllo locale di password riutilizzate, con meno di 12 caratteri o composte da un solo carattere ripetuto. Esclude cestino e modelli. Non verifica violazioni né garantisce la robustezza. Tocca una voce per rivederla.</string>
+    <string name="offline_review_reused">Riutilizzata</string>
+    <string name="offline_review_short">Corta o ripetitiva</string>
+    <string name="offline_review_error">Impossibile completare il controllo. Riprova con il database sbloccato.</string>
+    <string name="offline_review_untitled">Voce senza titolo</string>
+    <string name="offline_more_options">Note e scadenza</string>
+    <string name="offline_less_options">Nascondi note e scadenza</string>
+</resources>

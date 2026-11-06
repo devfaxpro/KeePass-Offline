@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="modern_palette_title">主题</string>
+    <string name="modern_palette_summary">为你的密码库选择完整的视觉风格</string>
+    <string name="modern_blue">海洋</string>
+    <string name="modern_green">森林</string>
+    <string name="modern_purple">极光</string>
+    <string name="modern_red">珊瑚</string>
+    <string name="modern_orange">沙丘</string>
+    <string name="modern_teal">翡翠</string>
+    <string name="modern_pink">樱花</string>
+    <string name="modern_slate">石墨</string>
+    <string name="modern_dynamic">Android 壁纸配色</string>
+    <string name="modern_legacy">原有主题</string>
+    <string name="modern_language">语言</string>
+    <string name="modern_preview">预览</string>
+    <string name="modern_preview_title">你的密码，你的风格。</string>
+    <string name="modern_preview_summary">独特背景与协调配色，支持浅色和深色模式。</string>
+    <string name="modern_search">搜索密码库</string>
+</resources>

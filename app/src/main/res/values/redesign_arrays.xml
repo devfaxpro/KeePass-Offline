@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="modern_palette_key" translatable="false">modern_palette</string>
+    <string-array name="modern_palette_names">
+        <item>@string/modern_blue</item>
+        <item>@string/modern_green</item>
+        <item>@string/modern_purple</item>
+        <item>@string/modern_red</item>
+        <item>@string/modern_orange</item>
+        <item>@string/modern_teal</item>
+        <item>@string/modern_pink</item>
+        <item>@string/modern_slate</item>
+        <item>@string/modern_dynamic</item>
+        <item>@string/modern_legacy</item>
+    </string-array>
+    <string-array name="modern_palette_values" translatable="false">
+        <item>blue</item>
+        <item>green</item>
+        <item>purple</item>
+        <item>red</item>
+        <item>orange</item>
+        <item>teal</item>
+        <item>pink</item>
+        <item>slate</item>
+        <item>dynamic</item>
+        <item>legacy</item>
+    </string-array>
+    <string-array name="modern_language_names" translatable="false">
+        <item>Italiano</item>
+        <item>English</item>
+        <item>English (United States)</item>
+        <item>Español</item>
+        <item>Português (Brasil)</item>
+        <item>Français</item>
+        <item>Deutsch</item>
+        <item>简体中文</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Русский</item>
+        <item>हिन्दी</item>
+        <item>العربية</item>
+        <item>Bahasa Indonesia</item>
+        <item>বাংলা</item>
+        <item>اردو</item>
+        <item>Türkçe</item>
+        <item>Tiếng Việt</item>
+        <item>ไทย</item>
+        <item>Polski</item>
+        <item>Nederlands</item>
+        <item>Română</item>
+        <item>Українська</item>
+        <item>Português (Portugal)</item>
+        <item>Español (Latinoamérica)</item>
+        <item>繁體中文</item>
+    </string-array>
+    <string-array name="modern_language_values" translatable="false">
+        <item>it</item>
+        <item>en</item>
+        <item>en-US</item>
+        <item>es</item>
+        <item>pt-BR</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>zh-Hans</item>
+        <item>ja</item>
+        <item>ko</item>
+        <item>ru</item>
+        <item>hi</item>
+        <item>ar</item>
+        <item>id</item>
+        <item>bn</item>
+        <item>ur</item>
+        <item>tr</item>
+        <item>vi</item>
+        <item>th</item>
+        <item>pl</item>
+        <item>nl</item>
+        <item>ro</item>
+        <item>uk</item>
+        <item>pt-PT</item>
+        <item>es-419</item>
+        <item>zh-Hant</item>
+    </string-array>
+</resources>

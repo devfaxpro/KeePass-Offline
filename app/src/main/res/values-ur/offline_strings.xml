@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="offline_backup_title">بیک اپ اور بحالی</string>
+    <string name="offline_backup_summary">اسی مرکزی اسناد کے ساتھ رمز شدہ نقل محفوظ کریں۔ اسے آف لائن رکھنے کے لیے آلے کی اسٹوریج یا USB منتخب کریں۔</string>
+    <string name="offline_backup_last">اس آلے پر آخری کامیاب نقل: %1$s</string>
+    <string name="offline_backup_never">کوئی نقل درج نہیں ہے</string>
+    <string name="offline_restore_help">بیک اپ جانچنے یا بحال کرنے کے لیے: ڈیٹابیس مقفل کریں، ڈیٹابیس کھولیں منتخب کریں اور نقل چنیں۔ قفل کھولنے سے پہلے صرف پڑھنے کا موڈ فعال کریں۔ اصل فائل بدلنے سے پہلے اندراجات جانچیں۔ اگر ترتیب دی گئی ہو تو کلیدی فائل یا ہارڈویئر کلید اب بھی درکار ہے۔</string>
+    <string name="offline_backup_create">بیک اپ بنائیں</string>
+    <string name="offline_review_title">پاس ورڈ کی جانچ</string>
+    <string name="offline_review_running">آلے پر جانچ جاری ہے…</string>
+    <string name="offline_review_summary">جانچے گئے پاس ورڈ: %1$d۔ جائزے کے لیے اندراجات: %2$d۔</string>
+    <string name="offline_review_scope">دوبارہ استعمال شدہ، 12 حروف سے کم یا صرف ایک ہی حرف کی تکرار والے پاس ورڈ کی مقامی جانچ۔ کوڑے دان اور سانچے شامل نہیں ہیں۔ ڈیٹا لیک کی جانچ یا مضبوطی کی ضمانت نہیں دی جاتی۔ جائزے کے لیے اندراج پر ٹیپ کریں۔</string>
+    <string name="offline_review_reused">دوبارہ استعمال شدہ</string>
+    <string name="offline_review_short">مختصر یا تکراری</string>
+    <string name="offline_review_error">جانچ مکمل نہیں ہو سکی۔ ڈیٹابیس کا قفل کھول کر دوبارہ کوشش کریں۔</string>
+    <string name="offline_review_untitled">بلا عنوان اندراج</string>
+    <string name="offline_more_options">نوٹس اور میعاد</string>
+    <string name="offline_less_options">نوٹس اور میعاد چھپائیں</string>
+</resources>

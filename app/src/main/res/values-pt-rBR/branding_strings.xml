@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- KeePass Offline identity. SPDX-License-Identifier: GPL-3.0-or-later -->
+<resources>
+    <string name="branding_tagline">Gerenciador de senhas offline. Compatível com KeePass.</string>
+    <string name="branding_origin">Projeto independente baseado no KeePassDX (Kunzisoft). Créditos originais e licença GPLv3 preservados.</string>
+</resources>

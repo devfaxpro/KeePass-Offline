@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string-array name="timeout_options">
+        <item>5 秒</item>
+        <item>10 秒</item>
+        <item>20 秒</item>
+        <item>30 秒</item>
+        <item>1 分鐘</item>
+        <item>5 分鐘</item>
+        <item>15 分鐘</item>
+        <item>30 分鐘</item>
+        <item>永不</item>
+    </string-array>
+    <string-array name="large_timeout_options">
+        <item>5 分鐘</item>
+        <item>15 分鐘</item>
+        <item>30 分鐘</item>
+        <item>1 小時</item>
+        <item>2 小時</item>
+        <item>5 小時</item>
+        <item>10 小時</item>
+        <item>24 小時</item>
+        <item>48 小時</item>
+        <item>1 週</item>
+        <item>1 個月</item>
+        <item>永不</item>
+    </string-array>
+    <string-array name="list_size_options">
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+    </string-array>
+</resources>

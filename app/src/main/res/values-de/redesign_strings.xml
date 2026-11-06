@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="modern_palette_title">Designs</string>
+    <string name="modern_palette_summary">Wähle einen vollständigen Look für deinen Tresor</string>
+    <string name="modern_blue">Ozean</string>
+    <string name="modern_green">Wald</string>
+    <string name="modern_purple">Polarlicht</string>
+    <string name="modern_red">Koralle</string>
+    <string name="modern_orange">Düne</string>
+    <string name="modern_teal">Jade</string>
+    <string name="modern_pink">Sakura</string>
+    <string name="modern_slate">Graphit</string>
+    <string name="modern_dynamic">Farben des Android-Hintergrunds</string>
+    <string name="modern_legacy">Ursprüngliche Designs</string>
+    <string name="modern_language">Sprache</string>
+    <string name="modern_preview">Vorschau</string>
+    <string name="modern_preview_title">Deine Passwörter. Dein Stil.</string>
+    <string name="modern_preview_summary">Markante Hintergründe und abgestimmte Flächen, im hellen oder dunklen Modus.</string>
+    <string name="modern_search">Tresor durchsuchen</string>
+</resources>

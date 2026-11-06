@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="offline_backup_title">Cópia de segurança e restauro</string>
+    <string name="offline_backup_summary">Guarde uma cópia cifrada com as mesmas credenciais principais. Escolha o armazenamento do dispositivo ou uma pen USB para a manter offline.</string>
+    <string name="offline_backup_last">Última cópia bem-sucedida neste dispositivo: %1$s</string>
+    <string name="offline_backup_never">Nenhuma cópia registada</string>
+    <string name="offline_restore_help">Para verificar ou restaurar uma cópia: bloqueie a base de dados, escolha Abrir base de dados e selecione a cópia. Ative o modo só de leitura antes de desbloquear. Verifique as entradas antes de substituir o original. O ficheiro de chave ou a chave física continuam a ser necessários, se estiverem configurados.</string>
+    <string name="offline_backup_create">Criar cópia</string>
+    <string name="offline_review_title">Verificar palavras-passe</string>
+    <string name="offline_review_running">A verificar localmente…</string>
+    <string name="offline_review_summary">Palavras-passe verificadas: %1$d. Entradas a rever: %2$d.</string>
+    <string name="offline_review_scope">Verificação local de palavras-passe reutilizadas, com menos de 12 carateres ou compostas por um único caráter repetido. Exclui a reciclagem e os modelos. Não verifica fugas de dados nem garante a robustez. Toque numa entrada para a rever.</string>
+    <string name="offline_review_reused">Reutilizada</string>
+    <string name="offline_review_short">Curta ou repetitiva</string>
+    <string name="offline_review_error">Não foi possível concluir a verificação. Tente novamente com a base de dados desbloqueada.</string>
+    <string name="offline_review_untitled">Entrada sem título</string>
+    <string name="offline_more_options">Notas e validade</string>
+    <string name="offline_less_options">Ocultar notas e validade</string>
+</resources>

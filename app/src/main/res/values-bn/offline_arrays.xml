@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string-array name="timeout_options">
+        <item>5 সেকেন্ড</item>
+        <item>10 সেকেন্ড</item>
+        <item>20 সেকেন্ড</item>
+        <item>30 সেকেন্ড</item>
+        <item>1 মিনিট</item>
+        <item>5 মিনিট</item>
+        <item>15 মিনিট</item>
+        <item>30 মিনিট</item>
+        <item>কখনো নয়</item>
+    </string-array>
+    <string-array name="large_timeout_options">
+        <item>5 মিনিট</item>
+        <item>15 মিনিট</item>
+        <item>30 মিনিট</item>
+        <item>1 ঘণ্টা</item>
+        <item>2 ঘণ্টা</item>
+        <item>5 ঘণ্টা</item>
+        <item>10 ঘণ্টা</item>
+        <item>24 ঘণ্টা</item>
+        <item>48 ঘণ্টা</item>
+        <item>1 সপ্তাহ</item>
+        <item>1 মাস</item>
+        <item>কখনো নয়</item>
+    </string-array>
+    <string-array name="list_size_options">
+        <item>ছোট</item>
+        <item>মাঝারি</item>
+        <item>বড়</item>
+    </string-array>
+</resources>

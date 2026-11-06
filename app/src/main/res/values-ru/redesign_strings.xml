@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="modern_palette_title">Темы</string>
+    <string name="modern_palette_summary">Выберите единый стиль для хранилища</string>
+    <string name="modern_blue">Океан</string>
+    <string name="modern_green">Лес</string>
+    <string name="modern_purple">Аврора</string>
+    <string name="modern_red">Коралл</string>
+    <string name="modern_orange">Дюна</string>
+    <string name="modern_teal">Нефрит</string>
+    <string name="modern_pink">Сакура</string>
+    <string name="modern_slate">Графит</string>
+    <string name="modern_dynamic">Цвета обоев Android</string>
+    <string name="modern_legacy">Исходные темы</string>
+    <string name="modern_language">Язык</string>
+    <string name="modern_preview">Предпросмотр</string>
+    <string name="modern_preview_title">Ваши пароли. Ваш стиль.</string>
+    <string name="modern_preview_summary">Выразительные фоны и гармоничные цвета в светлом и тёмном режиме.</string>
+    <string name="modern_search">Поиск в хранилище</string>
+</resources>

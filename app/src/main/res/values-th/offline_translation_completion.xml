@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="branding_tagline">ตัวจัดการรหัสผ่านแบบออฟไลน์ รองรับ KeePass</string>
+    <string name="branding_origin">โครงการแยกอิสระที่พัฒนาจาก KeePassDX (Kunzisoft) โดยคงเครดิตต้นฉบับและสัญญาอนุญาต GPLv3</string>
+    <string name="modern_palette_title">ธีม</string>
+    <string name="modern_palette_summary">เลือกรูปแบบทั้งหมดสำหรับคลังรหัสผ่าน</string>
+    <string name="modern_blue">มหาสมุทร</string>
+    <string name="modern_green">ป่า</string>
+    <string name="modern_purple">แสงออโรรา</string>
+    <string name="modern_red">ปะการัง</string>
+    <string name="modern_orange">เนินทราย</string>
+    <string name="modern_teal">หยก</string>
+    <string name="modern_pink">ซากุระ</string>
+    <string name="modern_slate">กราไฟต์</string>
+    <string name="modern_dynamic">สีจากวอลเปเปอร์ Android</string>
+    <string name="modern_legacy">ธีมดั้งเดิม</string>
+    <string name="modern_language">ภาษา</string>
+    <string name="modern_preview">ตัวอย่าง</string>
+    <string name="modern_preview_title">รหัสผ่านของคุณ สไตล์ของคุณ</string>
+    <string name="modern_preview_summary">พื้นหลังที่มีเอกลักษณ์และสีที่เข้ากัน ในโหมดสว่างหรือมืด</string>
+    <string name="modern_search">ค้นหาในคลังรหัสผ่าน</string>
+    <string name="invalid_db_hmac">ตรวจสอบลายเซ็นฐานข้อมูลไม่สำเร็จ อาจเกิดจากไฟล์เสียหายหรือถูกแก้ไขโดยแอปอื่น</string>
+    <string name="save_success">บันทึกสำเร็จ</string>
+    <string name="content_description_share_url">แชร์ URL</string>
+    <string name="error_load_database_KDF_iteration">จำนวนรอบ KDF สูงเกินไป</string>
+    <string name="error_load_database_KDF_parallelism">ระดับการทำงานขนานของ KDF สูงเกินไป</string>
+    <string name="error_memory_too_large">การใช้หน่วยความจำสูงเกินไป กำลังตั้งค่าเป็น %1$s</string>
+    <string name="error_parallelism_too_large">ระดับการทำงานขนานสูงเกินไป กำลังตั้งค่าเป็น %1$s</string>
+    <string name="error_missing_parent">ดำเนินการนี้ไม่ได้หากไม่มีกลุ่มหลัก</string>
+    <string name="show_tags_title">แสดงแท็ก</string>
+    <string name="show_tags_summary">แสดงแท็กในรายการข้อมูล</string>
+    <string name="parallelism_set_safe">กำหนดจำนวนหน่วยประมวลผล</string>
+    <string name="temporary_merge_success">รวมข้อมูลชั่วคราวสำเร็จ</string>
+    <string name="reload_success">โหลดใหม่สำเร็จ</string>
+    <string name="benchmark_calculation">คำนวณสำหรับ %1$s วินาที</string>
+    <string name="benchmarking">กำลังทดสอบประสิทธิภาพ…</string>
+    <string name="keyboard_share_browser">แชร์จาก %1$s ไปยัง KeePass Offline</string>
+    <string name="autofill_suggestions_title">คำแนะนำการกรอกอัตโนมัติ</string>
+    <string name="autofill_suggestions_summary">ใช้การรู้จำแบบฟอร์มเพื่อแนะนำรายการ</string>
+    <string name="passkey_pseudo_random_function">ฟังก์ชันสุ่มเทียมของพาสคีย์</string>
+</resources>

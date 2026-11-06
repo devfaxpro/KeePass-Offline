@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="offline_backup_title">Резервная копия и восстановление</string>
+    <string name="offline_backup_summary">Сохраните зашифрованную копию с теми же основными данными доступа. Для автономного хранения выберите память устройства или USB-накопитель.</string>
+    <string name="offline_backup_last">Последняя успешная копия на этом устройстве: %1$s</string>
+    <string name="offline_backup_never">Копии не зарегистрированы</string>
+    <string name="offline_restore_help">Для проверки или восстановления: заблокируйте базу, выберите «Открыть базу данных» и укажите копию. Перед разблокировкой включите режим только для чтения. Проверьте записи перед заменой оригинала. Если настроены файл ключа или аппаратный ключ, они по-прежнему нужны.</string>
+    <string name="offline_backup_create">Создать копию</string>
+    <string name="offline_review_title">Проверка паролей</string>
+    <string name="offline_review_running">Локальная проверка…</string>
+    <string name="offline_review_summary">Проверено паролей: %1$d. Записей для проверки: %2$d.</string>
+    <string name="offline_review_scope">Локальная проверка повторно используемых паролей, паролей короче 12 символов или из одного повторяющегося символа. Корзина и шаблоны исключены. Проверка утечек не выполняется, стойкость не гарантируется. Нажмите запись для просмотра.</string>
+    <string name="offline_review_reused">Повторно используется</string>
+    <string name="offline_review_short">Короткий или повторяющийся</string>
+    <string name="offline_review_error">Не удалось завершить проверку. Повторите попытку с разблокированной базой.</string>
+    <string name="offline_review_untitled">Запись без названия</string>
+    <string name="offline_more_options">Заметки и срок действия</string>
+    <string name="offline_less_options">Скрыть заметки и срок действия</string>
+</resources>

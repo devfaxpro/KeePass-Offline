@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Match the upstream fallback policy for other locales; tools/check_redesign_resources.py
+     checks explicit coverage for all ten agreed languages. -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="modern_palette_title">Themes</string>
+    <string name="modern_palette_summary">Choose a complete look for your vault</string>
+    <string name="modern_blue">Ocean</string>
+    <string name="modern_green">Forest</string>
+    <string name="modern_purple">Aurora</string>
+    <string name="modern_red">Coral</string>
+    <string name="modern_orange">Dune</string>
+    <string name="modern_teal">Jade</string>
+    <string name="modern_pink">Sakura</string>
+    <string name="modern_slate">Graphite</string>
+    <string name="modern_dynamic">Android wallpaper colors</string>
+    <string name="modern_legacy">Original themes</string>
+    <string name="modern_language">Language</string>
+    <string name="modern_preview">Preview</string>
+    <string name="modern_preview_title">Your passwords. Your style.</string>
+    <string name="modern_preview_summary">Distinctive backgrounds and coordinated surfaces, in light or dark mode.</string>
+    <string name="modern_search">Search your vault</string>
+</resources>

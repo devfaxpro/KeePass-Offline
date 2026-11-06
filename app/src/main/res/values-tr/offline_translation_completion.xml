@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="branding_tagline">Çevrimdışı parola yöneticisi. KeePass ile uyumlu.</string>
+    <string name="branding_origin">KeePassDX (Kunzisoft) tabanlı bağımsız bir çatallama. Özgün katkı bilgileri ve GPLv3 lisansı korunmuştur.</string>
+    <string name="modern_palette_title">Temalar</string>
+    <string name="modern_palette_summary">Kasanız için bütünlüklü bir görünüm seçin</string>
+    <string name="modern_blue">Okyanus</string>
+    <string name="modern_green">Orman</string>
+    <string name="modern_purple">Kutup ışığı</string>
+    <string name="modern_red">Mercan</string>
+    <string name="modern_orange">Kumul</string>
+    <string name="modern_teal">Yeşim</string>
+    <string name="modern_pink">Sakura</string>
+    <string name="modern_slate">Grafit</string>
+    <string name="modern_dynamic">Android duvar kâğıdı renkleri</string>
+    <string name="modern_legacy">Özgün temalar</string>
+    <string name="modern_language">Dil</string>
+    <string name="modern_preview">Önizleme</string>
+    <string name="modern_preview_title">Parolalarınız. Tarzınız.</string>
+    <string name="modern_preview_summary">Açık veya koyu modda özgün arka planlar ve uyumlu yüzeyler.</string>
+    <string name="modern_search">Kasanızda arayın</string>
+    <string name="invalid_db_hmac">Veritabanı imzası doğrulanamadı. Dosya bozulmuş veya başka bir uygulama tarafından değiştirilmiş olabilir.</string>
+    <string name="save_success">Başarıyla kaydedildi</string>
+</resources>

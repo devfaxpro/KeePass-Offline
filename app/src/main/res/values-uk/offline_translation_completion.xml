@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="branding_tagline">Офлайн-менеджер паролів. Сумісний із KeePass.</string>
+    <string name="branding_origin">Незалежний форк на основі KeePassDX (Kunzisoft). Збережено згадки про авторів і ліцензію GPLv3.</string>
+    <string name="modern_palette_title">Теми</string>
+    <string name="modern_palette_summary">Виберіть цілісний вигляд сховища</string>
+    <string name="modern_blue">Океан</string>
+    <string name="modern_green">Ліс</string>
+    <string name="modern_purple">Сяйво</string>
+    <string name="modern_red">Корал</string>
+    <string name="modern_orange">Дюна</string>
+    <string name="modern_teal">Нефрит</string>
+    <string name="modern_pink">Сакура</string>
+    <string name="modern_slate">Графіт</string>
+    <string name="modern_dynamic">Кольори шпалер Android</string>
+    <string name="modern_legacy">Оригінальні теми</string>
+    <string name="modern_language">Мова</string>
+    <string name="modern_preview">Перегляд</string>
+    <string name="modern_preview_title">Ваші паролі. Ваш стиль.</string>
+    <string name="modern_preview_summary">Виразні тла й узгоджені елементи у світлому або темному режимі.</string>
+    <string name="modern_search">Пошук у сховищі</string>
+    <string name="invalid_db_hmac">Не вдалося перевірити підпис бази даних. Файл може бути пошкоджений або змінений іншою програмою.</string>
+    <string name="save_success">Збереження успішно завершено</string>
+</resources>
